@@ -1,0 +1,642 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.11.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: Y2X33JB7013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           332,016,281 sequences; 120,178,393,972 total letters
+Query= WP_088403147.1.
+
+Length=32
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_088403147.1 MULTISPECIES: hypothetical protein [Staphylococ...  65.5    3e-13  100%      
+WP_000367007.1 MULTISPECIES: hypothetical protein [Staphylococ...  64.3    9e-13  97%       
+ATF30588.1 hypothetical protein CO689_06785 [Staphylococcus si...  62.4    5e-12  94%       
+EZV65301.1 hypothetical protein V077_02734 [Staphylococcus aur...  52.4    4e-08  100%      
+
+ALIGNMENTS
+>WP_088403147.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ EZR76798.1 hypothetical protein W778_02260 [Staphylococcus aureus VET1103S]
+ EZT73071.1 hypothetical protein V107_02522 [Staphylococcus aureus 45(2607)]
+ EZY86299.1 hypothetical protein V101_01394 [Staphylococcus aureus Rd.51]
+ EZZ33225.1 hypothetical protein V116_02613 [Staphylococcus aureus Tur-15]
+ KAC79022.1 hypothetical protein W540_02558 [Staphylococcus aureus VET0267R]
+ KAG68097.1 hypothetical protein W779_02129 [Staphylococcus aureus VET1104S]
+ KAG75938.1 hypothetical protein W785_02246 [Staphylococcus aureus VET1411S]
+ KAG79952.1 hypothetical protein W788_02531 [Staphylococcus aureus VET1434S]
+ KAH06566.1 hypothetical protein W801_02540 [Staphylococcus aureus VET1816S]
+ KAH12398.1 hypothetical protein W802_02568 [Staphylococcus aureus VET1817S]
+ KAH96102.1 hypothetical protein W726_02213 [Staphylococcus aureus VET1877R]
+Length=32
+
+ Score = 65.5 bits (158),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   MDMENKETEWKALYDISKESEMGVAERVSEYG  32
+           MDMENKETEWKALYDISKESEMGVAERVSEYG
+Sbjct  1   MDMENKETEWKALYDISKESEMGVAERVSEYG  32
+
+
+>WP_000367007.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ AAO03658.1 hypothetical protein SE_0061 [Staphylococcus epidermidis ATCC 
+12228]
+ AVI00613.1 hypothetical protein AL483_12670 [Staphylococcus simulans]
+ EGQ1285913.1 hypothetical protein [Staphylococcus pseudintermedius]
+ ENN32487.1 hypothetical protein UEM_02705 [Staphylococcus aureus M1556]
+ ENN58998.1 hypothetical protein U79_02184 [Staphylococcus aureus M1216]
+ EON80738.1 hypothetical protein H700_10120 [Staphylococcus epidermidis 41tr]
+ EON81078.1 hypothetical protein H701_09886 [Staphylococcus epidermidis 528m]
+ EON86365.1 hypothetical protein D592_04725 [Staphylococcus epidermidis 36-1]
+ EOR48629.1 hypothetical protein M140OLGA_1107 [Staphylococcus aureus subsp. 
+aureus 112808A]
+ EQM91212.1 hypothetical protein M397_13220 [Staphylococcus aureus S1]
+ EUP42773.1 hypothetical protein U059_02709 [Staphylococcus aureus KINW6046]
+ EUP71939.1 hypothetical protein U005_02716 [Staphylococcus aureus OCMM6125]
+ EUP78151.1 hypothetical protein U001_01806 [Staphylococcus aureus LAMC6117]
+ EUQ60736.1 hypothetical protein T791_02656 [Staphylococcus aureus WAMC6003]
+ EUQ71195.1 hypothetical protein T783_02619 [Staphylococcus aureus SMMC6030]
+ EUZ66953.1 hypothetical protein O552_02163 [Staphylococcus sp. M0480]
+ EVC45238.1 hypothetical protein T676_02674 [Staphylococcus aureus WMCS6011]
+ EVC63992.1 hypothetical protein T685_02665 [Staphylococcus aureus SJUD6053]
+ EVC75691.1 hypothetical protein T692_02582 [Staphylococcus aureus HOAG6057]
+ EVD28697.1 hypothetical protein T725_02705 [Staphylococcus aureus SJUD6074]
+ EVD54984.1 hypothetical protein T737_02589 [Staphylococcus aureus OCMM6049]
+ EVE00325.1 hypothetical protein T757_02731 [Staphylococcus aureus SJOS6002]
+ EVE43396.1 hypothetical protein T772_02707 [Staphylococcus aureus SJUD6014]
+ EVE52984.1 hypothetical protein T775_02700 [Staphylococcus aureus SJUD6018]
+ EVE58289.1 hypothetical protein T777_02448 [Staphylococcus aureus OCMM6002]
+ EVE73754.1 hypothetical protein T785_02696 [Staphylococcus aureus AMMC6014]
+ EVF50927.1 hypothetical protein T835_02694 [Staphylococcus aureus SJUD6028]
+ EVF58268.1 hypothetical protein T836_02628 [Staphylococcus aureus SJUD6021]
+ EVF65089.1 hypothetical protein T839_02682 [Staphylococcus aureus SJUD6041]
+ EVF75300.1 hypothetical protein T846_02646 [Staphylococcus aureus UCIM6034]
+ EVF90899.1 hypothetical protein T857_02702 [Staphylococcus aureus KINW6016]
+ EVF94691.1 hypothetical protein T858_02501 [Staphylococcus aureus FVRH6011]
+ EVG13526.1 hypothetical protein T869_02630 [Staphylococcus aureus COAS6053]
+ EVG37845.1 hypothetical protein T879_02648 [Staphylococcus aureus SMMC6076]
+ EVG76621.1 hypothetical protein T898_02566 [Staphylococcus aureus UCIM6070]
+ EVG83426.1 hypothetical protein T900_02587 [Staphylococcus aureus FVRH6026]
+ EVG86966.1 hypothetical protein T901_02607 [Staphylococcus aureus FVRH6022]
+ EVH54301.1 hypothetical protein T936_02454 [Staphylococcus aureus UCIM6081]
+ EVH67442.1 hypothetical protein T942_02579 [Staphylococcus aureus LAMC6084]
+ EVH85063.1 hypothetical protein T951_02761 [Staphylococcus aureus KINW6036]
+ EVI13811.1 hypothetical protein T961_02713 [Staphylococcus aureus UCIM6104]
+ EVI14136.1 hypothetical protein T962_02564 [Staphylococcus aureus AGEN6042]
+ EVI29342.1 hypothetical protein T968_02573 [Staphylococcus aureus FVRH6065]
+ EVI38597.1 hypothetical protein T976_02669 [Staphylococcus aureus UCIM6115]
+ EVI61727.1 hypothetical protein T990_02662 [Staphylococcus aureus OCMM6117]
+ EVI61963.1 hypothetical protein T991_02786 [Staphylococcus aureus GGMC6026]
+ EVI71822.1 hypothetical protein T996_02495 [Staphylococcus aureus MISS6080]
+ EVI91584.1 hypothetical protein U010_02680 [Staphylococcus aureus FVRH6129]
+ EVI98764.1 hypothetical protein U013_02627 [Staphylococcus aureus PLAC6044]
+ EVJ34657.1 hypothetical protein U032_02718 [Staphylococcus aureus HBHO6024]
+ EVJ34932.1 hypothetical protein U034_02717 [Staphylococcus aureus KINW6058]
+ EVJ48391.1 hypothetical protein U040_02669 [Staphylococcus aureus PLAC6055]
+ EVJ94481.1 hypothetical protein O802_02411 [Staphylococcus aureus M0773]
+ EVP63980.1 hypothetical protein P331_02396 [Staphylococcus aureus M0758]
+ EVP86484.1 hypothetical protein P341_02475 [Staphylococcus aureus M0768]
+ EVU38390.1 hypothetical protein U139_02615 [Staphylococcus aureus F41906]
+ EVU58502.1 hypothetical protein U148_02608 [Staphylococcus aureus W31862]
+ EVV06892.1 hypothetical protein U172_02611 [Staphylococcus aureus M41648]
+ EVV09655.1 hypothetical protein U173_02605 [Staphylococcus aureus F54452]
+ EVV17196.1 hypothetical protein U175_02570 [Staphylococcus aureus F54467]
+ EVV21161.1 hypothetical protein U176_02464 [Staphylococcus aureus F54471]
+ EVV77535.1 hypothetical protein U201_02241 [Staphylococcus aureus W18443]
+ EVW33061.1 hypothetical protein U226_02607 [Staphylococcus aureus W39902]
+ EVW57956.1 hypothetical protein U237_02661 [Staphylococcus aureus H18808]
+ EVW60635.1 hypothetical protein U238_02289 [Staphylococcus aureus H18813]
+ EVW62496.1 hypothetical protein U239_02649 [Staphylococcus aureus H18809]
+ EVW73237.1 hypothetical protein U242_02211 [Staphylococcus aureus H18811]
+ EVX22150.1 hypothetical protein U263_02583 [Staphylococcus aureus M24390]
+ EVX60904.1 hypothetical protein U278_02584 [Staphylococcus aureus T78544]
+ EVX73582.1 hypothetical protein U283_02605 [Staphylococcus aureus F68118]
+ EVX75221.1 hypothetical protein U284_02612 [Staphylococcus aureus M36077]
+ EVY41558.1 hypothetical protein U311_02111 [Staphylococcus aureus F89468]
+ EVY46386.1 hypothetical protein U315_02640 [Staphylococcus aureus H54403]
+ EVZ00658.1 hypothetical protein U347_02650 [Staphylococcus aureus F74023]
+ EVZ72953.1 hypothetical protein U389_02656 [Staphylococcus aureus H27872]
+ EVZ74437.1 hypothetical protein U388_01832 [Staphylococcus aureus H27862]
+ EVZ86232.1 hypothetical protein U392_02097 [Staphylococcus aureus H34245]
+ EVZ87196.1 hypothetical protein U394_02617 [Staphylococcus aureus H40569]
+ EVZ93885.1 hypothetical protein U397_02610 [Staphylococcus aureus H57821]
+ EVZ95569.1 hypothetical protein U398_02227 [Staphylococcus aureus H57822]
+ EVZ97137.1 hypothetical protein U399_02625 [Staphylococcus aureus H57823]
+ EWA13085.1 hypothetical protein U403_02648 [Staphylococcus aureus H67656]
+ EWA14564.1 hypothetical protein U405_02614 [Staphylococcus aureus H70826]
+ EWA14822.1 hypothetical protein U406_02608 [Staphylococcus aureus H70834]
+ EWA96960.1 hypothetical protein U438_02610 [Staphylococcus aureus T76018]
+ EWB06425.1 hypothetical protein U441_02568 [Staphylococcus aureus T82627]
+ EWB54817.1 hypothetical protein U461_02607 [Staphylococcus aureus W64953]
+ EWI58226.1 hypothetical protein U682_02602 [Staphylococcus aureus T67327]
+ EWI85976.1 hypothetical protein U668_02355 [Staphylococcus aureus T44830]
+ EWJ11623.1 hypothetical protein U656_02435 [Staphylococcus aureus M80979]
+ EWJ41066.1 hypothetical protein U642_02644 [Staphylococcus aureus H87668]
+ EWJ44450.1 hypothetical protein U641_02348 [Staphylococcus aureus H87628]
+ EWJ50094.1 hypothetical protein U638_02414 [Staphylococcus aureus H84980]
+ EWJ73467.1 hypothetical protein U620_02487 [Staphylococcus aureus F53388]
+ EWJ82765.1 hypothetical protein U610_02595 [Staphylococcus aureus F43212]
+ EWJ93302.1 hypothetical protein U604_02712 [Staphylococcus aureus W92106]
+ EWJ99236.1 hypothetical protein U598_02678 [Staphylococcus aureus W75539]
+ EWK05782.1 hypothetical protein U595_02460 [Staphylococcus aureus W75113]
+ EWK08947.1 hypothetical protein U594_02463 [Staphylococcus aureus W75098]
+ EWK37160.1 hypothetical protein U582_02703 [Staphylococcus aureus T34011]
+ EWK54165.1 hypothetical protein U574_02593 [Staphylococcus aureus T16676]
+ EWK75510.1 hypothetical protein U565_02514 [Staphylococcus aureus M66673]
+ EWK92872.1 hypothetical protein U557_02620 [Staphylococcus aureus M46070]
+ EWL08369.1 hypothetical protein U549_02643 [Staphylococcus aureus H68244]
+ EWL14228.1 hypothetical protein U548_02215 [Staphylococcus aureus H64967]
+ EWL17876.1 hypothetical protein U546_02715 [Staphylococcus aureus H64941]
+ EWL21213.1 hypothetical protein U544_02637 [Staphylococcus aureus H58191]
+ EWL33725.1 hypothetical protein U538_02593 [Staphylococcus aureus F88405]
+ EWL94359.1 hypothetical protein U510_02615 [Staphylococcus aureus F13027]
+ EWP71938.1 hypothetical protein Q211_02506 [Staphylococcus aureus M1217]
+ EWR67937.1 hypothetical protein T973_00041 [Staphylococcus aureus OCMM6103]
+ EWR69082.1 hypothetical protein T985_00041 [Staphylococcus aureus OCMM6109]
+ EWR71374.1 hypothetical protein T939_02792 [Staphylococcus aureus MISS6176]
+ EWR80133.1 hypothetical protein T921_02766 [Staphylococcus aureus MISS6132]
+ EWR80187.1 hypothetical protein T920_02786 [Staphylococcus aureus KINW6025]
+ EWR88409.1 hypothetical protein T875_02779 [Staphylococcus aureus SJUD6098]
+ EWS05697.1 hypothetical protein T840_02216 [Staphylococcus aureus OCMM6017]
+ EWS12014.1 hypothetical protein T821_02757 [Staphylococcus aureus MISS6037]
+ EWT73283.1 hypothetical protein V305_02440 [Staphylococcus aureus H47224]
+ EWV08576.1 hypothetical protein U622_02718 [Staphylococcus aureus F53399]
+ EWV52920.1 hypothetical protein V224_02296 [Staphylococcus aureus W18442]
+ EWV56088.1 hypothetical protein V228_02505 [Staphylococcus aureus F63787]
+ EWV68546.1 hypothetical protein V238_02610 [Staphylococcus aureus W56912]
+ EWV92784.1 hypothetical protein V255_02685 [Staphylococcus aureus F70077]
+ EWW03343.1 hypothetical protein V261_02444 [Staphylococcus aureus M35955]
+ EWW09216.1 hypothetical protein V262_02070 [Staphylococcus aureus M35965]
+ EWW17388.1 hypothetical protein V267_02625 [Staphylococcus aureus F73187]
+ EWW41296.1 hypothetical protein V283_01610 [Staphylococcus aureus W65885]
+ EWW48561.1 hypothetical protein V286_02271 [Staphylococcus aureus M42485]
+ EWW58268.1 hypothetical protein V291_02418 [Staphylococcus aureus M42496]
+ EWW69336.1 hypothetical protein V296_02704 [Staphylococcus aureus H47171]
+ EWW76286.1 hypothetical protein V300_02678 [Staphylococcus aureus H47183]
+ EWW86858.1 hypothetical protein V303_02392 [Staphylococcus aureus F82573]
+ EWX07729.1 hypothetical protein V319_02635 [Staphylococcus aureus F16106]
+ EWX10226.1 hypothetical protein V320_02313 [Staphylococcus aureus F16107]
+ EWX18637.1 hypothetical protein V331_02694 [Staphylococcus aureus F85660]
+ EWX37826.1 hypothetical protein V342_02726 [Staphylococcus aureus F92089]
+ EWX95295.1 hypothetical protein V381_02715 [Staphylococcus aureus T22051]
+ EWY28766.1 hypothetical protein V406_02194 [Staphylococcus aureus W83137]
+ EXQ06811.1 hypothetical protein V798_02281 [Staphylococcus aureus M17074]
+ EXQ48606.1 hypothetical protein V770_02678 [Staphylococcus aureus F64894]
+ EXQ49259.1 hypothetical protein V767_02751 [Staphylococcus aureus F36099]
+ EXQ53243.1 hypothetical protein V766_02338 [Staphylococcus aureus F36097]
+ EXQ66464.1 hypothetical protein V760_02778 [Staphylococcus aureus F23613]
+ EXQ70164.1 hypothetical protein V759_02263 [Staphylococcus aureus F23610]
+ EYF09682.1 hypothetical protein V318_02555 [Staphylococcus aureus F16104]
+ EYF44776.1 hypothetical protein V390_02656 [Staphylococcus aureus T35604]
+ EYF62032.1 hypothetical protein V534_02527 [Staphylococcus aureus F12753]
+ EYF79794.1 hypothetical protein V542_02635 [Staphylococcus aureus T16615]
+ EYG01158.1 hypothetical protein V569_02596 [Staphylococcus aureus F32629]
+ EYG01469.1 hypothetical protein V549_02575 [Staphylococcus aureus W89581]
+ EYG07363.1 hypothetical protein V571_02655 [Staphylococcus aureus F42559]
+ EYG24732.1 hypothetical protein V590_02715 [Staphylococcus aureus H19404]
+ EYG75354.1 hypothetical protein V667_02651 [Staphylococcus aureus F34824]
+ EYG95479.1 hypothetical protein V697_02639 [Staphylococcus aureus M66407]
+ EYH26224.1 hypothetical protein V769_02066 [Staphylococcus aureus F64891]
+ EYH38171.1 hypothetical protein V820_02040 [Staphylococcus aureus T39105]
+ EYJ08713.1 hypothetical protein V260_02639 [Staphylococcus aureus M35954]
+ EYJ41779.1 hypothetical protein V574_02625 [Staphylococcus aureus F42580]
+ EYJ42436.1 hypothetical protein V573_02432 [Staphylococcus aureus F42579]
+ EYJ44642.1 hypothetical protein V575_02624 [Staphylococcus aureus F42582]
+ EYJ66020.1 hypothetical protein V588_02678 [Staphylococcus aureus H19392]
+ EYJ83924.1 hypothetical protein V597_02304 [Staphylococcus aureus H43700]
+ EYJ89739.1 hypothetical protein V601_02191 [Staphylococcus aureus H88149]
+ EYJ99555.1 hypothetical protein V604_01996 [Staphylococcus aureus M13074]
+ EYK22063.1 hypothetical protein V618_02690 [Staphylococcus aureus M79664]
+ EYK26897.1 hypothetical protein V620_02439 [Staphylococcus aureus M79673]
+ EYK32573.1 hypothetical protein V623_02361 [Staphylococcus aureus M90396]
+ EYK35919.1 hypothetical protein V624_02372 [Staphylococcus aureus T13096]
+ EYK85026.1 hypothetical protein V644_02112 [Staphylococcus aureus W19220]
+ EYK85457.1 hypothetical protein V646_02735 [Staphylococcus aureus W25787]
+ EYK87913.1 hypothetical protein V647_02670 [Staphylococcus aureus W25814]
+ EYL15033.1 hypothetical protein V661_02734 [Staphylococcus aureus W62354]
+ EYL72290.1 hypothetical protein V688_01922 [Staphylococcus aureus H83025]
+ EYL90574.1 hypothetical protein V698_02694 [Staphylococcus aureus M66410]
+ EYM01291.1 hypothetical protein V706_02527 [Staphylococcus aureus T15928]
+ EYM03772.1 hypothetical protein V705_02375 [Staphylococcus aureus T15898]
+ EYM33347.1 hypothetical protein V719_02658 [Staphylococcus aureus W34848]
+ EYM34081.1 hypothetical protein V720_02639 [Staphylococcus aureus W41757]
+ EYO97670.1 hypothetical protein W205_02676 [Staphylococcus aureus DAR951]
+ EZR31119.1 hypothetical protein V135_02570 [Staphylococcus aureus ZTA09/03576-9HST]
+ EZR35435.1 hypothetical protein V138_01038 [Staphylococcus aureus ZTA11/03130-3ST]
+ EZR38580.1 hypothetical protein W750_02614 [Staphylococcus aureus VET1915R]
+ EZR38898.1 hypothetical protein W805_02594 [Staphylococcus aureus VET1918S]
+ EZR41639.1 hypothetical protein W745_02551 [Staphylococcus aureus VET1910R]
+ EZR44627.1 hypothetical protein W742_02559 [Staphylococcus aureus VET1907R]
+ EZR49952.1 hypothetical protein W734_02504 [Staphylococcus aureus VET1896R]
+ EZR58403.1 hypothetical protein W712_02442 [Staphylococcus aureus VET1858R]
+ EZR65152.1 hypothetical protein W693_02398 [Staphylococcus aureus VET1833R]
+ EZR69354.1 hypothetical protein W786_02562 [Staphylococcus aureus VET1419S]
+ EZR90727.1 hypothetical protein W689_02506 [Staphylococcus aureus VET0489R]
+ EZR90819.1 hypothetical protein W682_02564 [Staphylococcus aureus VET0472R]
+ EZR97138.1 hypothetical protein W679_02502 [Staphylococcus aureus VET0469R]
+ EZS01032.1 hypothetical protein W677_02511 [Staphylococcus aureus VET0467R]
+ EZS05114.1 hypothetical protein W658_02113 [Staphylococcus aureus VET0437R]
+ EZS10305.1 hypothetical protein W649_01000 [Staphylococcus aureus VET0426R]
+ EZS11882.1 hypothetical protein W647_02079 [Staphylococcus aureus VET0424R]
+ EZS15881.1 hypothetical protein W645_01103 [Staphylococcus aureus VET0422R]
+ EZS16027.1 hypothetical protein W657_02395 [Staphylococcus aureus VET0436R]
+ EZS22017.1 hypothetical protein W630_02484 [Staphylococcus aureus VET0400R]
+ EZS22605.1 hypothetical protein W609_02473 [Staphylococcus aureus VET0361R]
+ EZS27125.1 hypothetical protein W606_02604 [Staphylococcus aureus VET0358R]
+ EZS30400.1 hypothetical protein W603_02471 [Staphylococcus aureus VET0353R]
+ EZS34444.1 hypothetical protein W601_02048 [Staphylococcus aureus VET0343R]
+ EZS35044.1 hypothetical protein W600_02519 [Staphylococcus aureus VET0342R]
+ EZS37244.1 hypothetical protein W591_02536 [Staphylococcus aureus VET0332R]
+ EZS41482.1 hypothetical protein W583_02275 [Staphylococcus aureus VET0319R]
+ EZS46603.1 hypothetical protein W564_02651 [Staphylococcus aureus VET0298R]
+ EZS46980.1 hypothetical protein W567_02189 [Staphylococcus aureus VET0301R]
+ EZS51372.1 hypothetical protein W559_02618 [Staphylococcus aureus VET0293R]
+ EZS54215.1 hypothetical protein W528_02548 [Staphylococcus aureus VET0244R]
+ EZS55489.1 hypothetical protein W531_02028 [Staphylococcus aureus VET0251R]
+ EZS58135.1 hypothetical protein W523_02589 [Staphylococcus aureus VET0235R]
+ EZS62586.1 hypothetical protein W520_02589 [Staphylococcus aureus VET0229R]
+ EZS63254.1 hypothetical protein W522_02132 [Staphylococcus aureus VET0232R]
+ EZS69454.1 hypothetical protein W496_02578 [Staphylococcus aureus VET0197R]
+ EZS77167.1 hypothetical protein W484_02118 [Staphylococcus aureus VET0184R]
+ EZS77569.1 hypothetical protein W483_02577 [Staphylococcus aureus VET0183R]
+ EZS84715.1 hypothetical protein W469_01895 [Staphylococcus aureus VET0158R]
+ EZS86759.1 hypothetical protein W468_02488 [Staphylococcus aureus VET0157R]
+ EZS88252.1 hypothetical protein W465_02579 [Staphylococcus aureus VET0154R]
+ EZS93032.1 hypothetical protein W462_02578 [Staphylococcus aureus VET0150R]
+ EZS97170.1 hypothetical protein W460_01929 [Staphylococcus aureus VET0141R]
+ EZT03083.1 hypothetical protein W446_02522 [Staphylococcus aureus VET0120R]
+ EZT04268.1 hypothetical protein W440_02549 [Staphylococcus aureus VET0113R]
+ EZT08335.1 hypothetical protein W438_02531 [Staphylococcus aureus VET0111R]
+ EZT09568.1 hypothetical protein W432_02503 [Staphylococcus aureus VET0102R]
+ EZT16792.1 hypothetical protein W412_02389 [Staphylococcus aureus VET0078R]
+ EZT22734.1 hypothetical protein W389_02474 [Staphylococcus aureus VET0050R]
+ EZT23445.1 hypothetical protein V010_02544 [Staphylococcus aureus VE08/02242ST1]
+ EZT38328.1 hypothetical protein V125_02578 [Staphylococcus aureus Rd.290]
+ EZT39874.1 hypothetical protein V046_02497 [Staphylococcus aureus S63_POEL]
+ EZT51595.1 hypothetical protein V095_02546 [Staphylococcus aureus GD2010-159]
+ EZT56714.1 hypothetical protein V033_02547 [Staphylococcus aureus C3452]
+ EZT75247.1 hypothetical protein V103_02586 [Staphylococcus aureus 22(2K81-5)]
+ EZT80485.1 hypothetical protein V082_02576 [Staphylococcus aureus 2011-60-2275-7]
+ EZT94962.1 hypothetical protein V120_02588 [Staphylococcus aureus 1(04GN_04-02-52-07)]
+ EZT98705.1 hypothetical protein U909_02515 [Staphylococcus aureus 09-00736]
+ EZU00984.1 hypothetical protein U906_02501 [Staphylococcus aureus 08-01229]
+ EZU05746.1 hypothetical protein U905_02376 [Staphylococcus aureus 08-01062]
+ EZU07235.1 hypothetical protein U904_02526 [Staphylococcus aureus 08-01059]
+ EZU14341.1 hypothetical protein U913_02491 [Staphylococcus aureus 08-01085]
+ EZU15534.1 hypothetical protein U912_02312 [Staphylococcus aureus 08-01084]
+ EZU21872.1 hypothetical protein U907_02275 [Staphylococcus aureus 08-01728]
+ EZU22983.1 hypothetical protein V157_02590 [Staphylococcus aureus 08134-6]
+ EZU41231.1 hypothetical protein U978_02579 [Staphylococcus aureus 1110601704]
+ EZU52349.1 hypothetical protein U981_02090 [Staphylococcus aureus 1110700610]
+ EZU62244.1 hypothetical protein U987_02468 [Staphylococcus aureus 1110904178]
+ EZU79478.1 hypothetical protein U994_02475 [Staphylococcus aureus 1111200013]
+ EZU84907.1 hypothetical protein U996_02459 [Staphylococcus aureus 1111205429]
+ EZU87443.1 hypothetical protein V147_02555 [Staphylococcus aureus 11P4]
+ EZU93981.1 hypothetical protein V148_02274 [Staphylococcus aureus 11P8]
+ EZV08860.1 hypothetical protein U976_02593 [Staphylococcus aureus 12464]
+ EZV15244.1 hypothetical protein U925_02472 [Staphylococcus aureus 12S00579]
+ EZV34053.1 hypothetical protein V122_02029 [Staphylococcus aureus 14(11MN_17-08-66-05)]
+ EZV39230.1 hypothetical protein V118_02564 [Staphylococcus aureus 16(11S1S4-09)]
+ EZV50453.1 hypothetical protein U947_01394 [Staphylococcus aureus 18754-2]
+ EZV51497.1 hypothetical protein V121_02335 [Staphylococcus aureus 2(04HN_17-03-52-05)]
+ EZV55584.1 hypothetical protein V079_02603 [Staphylococcus aureus 2009-60-561-1]
+ EZV57443.1 hypothetical protein V074_02633 [Staphylococcus aureus 2010-60-1240-1]
+ EZV61945.1 hypothetical protein V076_02577 [Staphylococcus aureus 2010-60-6063-39]
+ EZV77464.1 hypothetical protein V084_02301 [Staphylococcus aureus 2011-60-1490-31]
+ EZV84876.1 hypothetical protein V081_02582 [Staphylococcus aureus 2011-60-2275-1]
+ EZW02494.1 hypothetical protein U998_02468 [Staphylococcus aureus 22P79]
+ EZW11908.1 hypothetical protein V105_02644 [Staphylococcus aureus 25(2889)]
+ EZW27594.1 hypothetical protein V152_02568 [Staphylococcus aureus 40P10]
+ EZW39908.1 hypothetical protein V155_02561 [Staphylococcus aureus 47P5]
+ EZW40455.1 hypothetical protein V106_02552 [Staphylococcus aureus 44(2608)]
+ EZW43036.1 hypothetical protein V156_02557 [Staphylococcus aureus 47P9]
+ EZW50229.1 hypothetical protein U970_02520 [Staphylococcus aureus 56824-10]
+ EZW58009.1 hypothetical protein U968_02530 [Staphylococcus aureus 56824-5]
+ EZW61120.1 hypothetical protein U969_02622 [Staphylococcus aureus 56824-7]
+ EZW65600.1 hypothetical protein U973_02480 [Staphylococcus aureus 56864-11]
+ EZW69988.1 hypothetical protein U955_02580 [Staphylococcus aureus 75495-3]
+ EZW85252.1 hypothetical protein U949_02563 [Staphylococcus aureus 87807-1]
+ EZW89508.1 hypothetical protein U950_02066 [Staphylococcus aureus 87807-11]
+ EZX06992.1 hypothetical protein U943_02599 [Staphylococcus aureus BG407]
+ EZX17921.1 hypothetical protein V026_01031 [Staphylococcus aureus C1655]
+ EZX23627.1 hypothetical protein V018_02622 [Staphylococcus aureus C1891]
+ EZX37321.1 hypothetical protein V027_02036 [Staphylococcus aureus C2706]
+ EZX38502.1 hypothetical protein V034_02201 [Staphylococcus aureus C2928]
+ EZX46033.1 hypothetical protein V035_01923 [Staphylococcus aureus C2942]
+ EZX56134.1 hypothetical protein V037_02298 [Staphylococcus aureus C4151]
+ EZX69341.1 hypothetical protein V108_02599 [Staphylococcus aureus Chi-4]
+ EZX71157.1 hypothetical protein V109_02209 [Staphylococcus aureus Chi-10]
+ EZX73812.1 hypothetical protein V110_02715 [Staphylococcus aureus Chi-8]
+ EZX77718.1 hypothetical protein V140_02316 [Staphylococcus aureus DICM09/01587-13HST]
+ EZX81171.1 hypothetical protein V137_01720 [Staphylococcus aureus DICM09/00997-9HST2]
+ EZX90810.1 hypothetical protein V128_02568 [Staphylococcus aureus GD2010-061]
+ EZY03040.1 hypothetical protein V087_02541 [Staphylococcus aureus GD2010-110]
+ EZY12205.1 hypothetical protein V092_02543 [Staphylococcus aureus GD2010-147]
+ EZY15188.1 hypothetical protein V093_02136 [Staphylococcus aureus GD2010-155]
+ EZY20108.1 hypothetical protein V094_02261 [Staphylococcus aureus GD2010-158]
+ EZY37124.1 hypothetical protein V005_02052 [Staphylococcus aureus M520-1]
+ EZY78197.1 hypothetical protein V100_02589 [Staphylococcus aureus Rd.40]
+ EZY86803.1 hypothetical protein V123_02237 [Staphylococcus aureus Rd.545]
+ EZY89068.1 hypothetical protein V102_02089 [Staphylococcus aureus Rd.60]
+ EZY91011.1 hypothetical protein V124_02683 [Staphylococcus aureus Rd.614]
+ EZY95062.1 hypothetical protein V099_02305 [Staphylococcus aureus Rd.9]
+ EZY99223.1 hypothetical protein V045_02553 [Staphylococcus aureus S62_POEL]
+ EZZ04828.1 hypothetical protein V007_02596 [Staphylococcus aureus SARM C5621]
+ EZZ11194.1 hypothetical protein U942_02605 [Staphylococcus aureus Sau 194]
+ EZZ18977.1 hypothetical protein U936_02529 [Staphylococcus aureus Sau 47]
+ EZZ31883.1 hypothetical protein U941_02152 [Staphylococcus aureus Sau 99]
+ EZZ33530.1 hypothetical protein V115_02600 [Staphylococcus aureus Tur-12]
+ EZZ42615.1 hypothetical protein V112_02524 [Staphylococcus aureus Tur-22]
+ EZZ43354.1 hypothetical protein V114_02585 [Staphylococcus aureus Tur-6]
+ EZZ73352.1 hypothetical protein V009_02552 [Staphylococcus aureus VE08/02126ST1]
+ EZZ73619.1 hypothetical protein V011_02558 [Staphylococcus aureus VE08/02244ST1]
+ EZZ73868.1 hypothetical protein V008_02042 [Staphylococcus aureus VE07/03048STA]
+ EZZ81452.1 hypothetical protein W391_02586 [Staphylococcus aureus VET0052R]
+ EZZ82474.1 hypothetical protein W390_01410 [Staphylococcus aureus VET0051R]
+ EZZ83547.1 hypothetical protein W392_02068 [Staphylococcus aureus VET0053R]
+ EZZ86834.1 hypothetical protein W393_02553 [Staphylococcus aureus VET0054R]
+ EZZ91763.1 hypothetical protein W394_02495 [Staphylococcus aureus VET0055R]
+ EZZ99726.1 hypothetical protein W399_02652 [Staphylococcus aureus VET0061R]
+ KAA04945.1 hypothetical protein W400_02265 [Staphylococcus aureus VET0062R]
+ KAA11332.1 hypothetical protein W402_02538 [Staphylococcus aureus VET0065R]
+ KAA11678.1 hypothetical protein W401_02544 [Staphylococcus aureus VET0063R]
+ KAA11878.1 hypothetical protein W403_02656 [Staphylococcus aureus VET0066R]
+ KAA19541.1 hypothetical protein W405_02636 [Staphylococcus aureus VET0069R]
+ KAA19819.1 hypothetical protein W406_02579 [Staphylococcus aureus VET0070R]
+ KAA22017.1 hypothetical protein W404_01154 [Staphylococcus aureus VET0067R]
+ KAA2272727.1 hypothetical protein F1592_11960 [Staphylococcus sp. GDX7P312P]
+ KAA2280142.1 hypothetical protein F1591_06625 [Staphylococcus sp. GDX7P459A]
+ KAA27426.1 hypothetical protein W409_02564 [Staphylococcus aureus VET0075R]
+ KAA34555.1 hypothetical protein W410_02483 [Staphylococcus aureus VET0076R]
+ KAA36322.1 hypothetical protein W413_02529 [Staphylococcus aureus VET0080R]
+ KAA39532.1 hypothetical protein W411_01224 [Staphylococcus aureus VET0077R]
+ KAA40218.1 hypothetical protein W415_02567 [Staphylococcus aureus VET0083R]
+ KAA43803.1 hypothetical protein W416_02570 [Staphylococcus aureus VET0084R]
+ KAA45065.1 hypothetical protein W417_02543 [Staphylococcus aureus VET0085R]
+ KAA47177.1 hypothetical protein W418_02564 [Staphylococcus aureus VET0086R]
+ KAA57299.1 hypothetical protein W421_01145 [Staphylococcus aureus VET0089R]
+ KAA59402.1 hypothetical protein W422_02486 [Staphylococcus aureus VET0090R]
+ KAA66375.1 hypothetical protein W424_02022 [Staphylococcus aureus VET0092R]
+ KAA66925.1 hypothetical protein W425_02540 [Staphylococcus aureus VET0093R]
+ KAA69860.1 hypothetical protein W426_02615 [Staphylococcus aureus VET0094R]
+ KAA73872.1 hypothetical protein W428_02542 [Staphylococcus aureus VET0097R]
+ KAA74836.1 hypothetical protein W427_02026 [Staphylococcus aureus VET0095R]
+ KAA77139.1 hypothetical protein W429_02621 [Staphylococcus aureus VET0098R]
+ KAA80568.1 hypothetical protein W430_02570 [Staphylococcus aureus VET0099R]
+ KAA82024.1 hypothetical protein W431_02528 [Staphylococcus aureus VET0101R]
+ KAA83876.1 hypothetical protein W433_02557 [Staphylococcus aureus VET0103R]
+ KAA87610.1 hypothetical protein W434_02579 [Staphylococcus aureus VET0104R]
+ KAA92531.1 hypothetical protein W435_02530 [Staphylococcus aureus VET0105R]
+ KAA93739.1 hypothetical protein W437_02577 [Staphylococcus aureus VET0110R]
+ KAA93975.1 hypothetical protein W436_02022 [Staphylococcus aureus VET0107R]
+ KAB00723.1 hypothetical protein W439_02074 [Staphylococcus aureus VET0112R]
+ KAB01317.1 hypothetical protein W441_02555 [Staphylococcus aureus VET0114R]
+ KAB08619.1 hypothetical protein W444_02626 [Staphylococcus aureus VET0117R]
+ KAB09345.1 hypothetical protein W445_02569 [Staphylococcus aureus VET0119R]
+ KAB15881.1 hypothetical protein W447_02568 [Staphylococcus aureus VET0123R]
+ KAB16845.1 hypothetical protein W448_02541 [Staphylococcus aureus VET0124R]
+ KAB22349.1 hypothetical protein W451_02591 [Staphylococcus aureus VET0127R]
+ KAB26546.1 hypothetical protein W452_02368 [Staphylococcus aureus VET0128R]
+ KAB26702.1 hypothetical protein W453_02026 [Staphylococcus aureus VET0129R]
+ KAB30482.1 hypothetical protein W454_02569 [Staphylococcus aureus VET0130R]
+ KAB32248.1 hypothetical protein W455_02602 [Staphylococcus aureus VET0132R]
+ KAB35921.1 hypothetical protein W456_02570 [Staphylococcus aureus VET0133R]
+ KAB36374.1 hypothetical protein W457_02589 [Staphylococcus aureus VET0134R]
+ KAB42868.1 hypothetical protein W461_02604 [Staphylococcus aureus VET0148R]
+ KAB44221.1 hypothetical protein W463_02477 [Staphylococcus aureus VET0151R]
+ KAB44867.1 hypothetical protein W459_00063 [Staphylococcus aureus VET0140R]
+ KAB54203.1 hypothetical protein W467_02084 [Staphylococcus aureus VET0156R]
+ KAB56067.1 hypothetical protein W471_02674 [Staphylococcus aureus VET0161R]
+ KAB58098.1 hypothetical protein W472_02605 [Staphylococcus aureus VET0162R]
+ KAB71954.1 hypothetical protein W477_02538 [Staphylococcus aureus VET0171R]
+ KAB73444.1 hypothetical protein W478_02566 [Staphylococcus aureus VET0176R]
+ KAB75817.1 hypothetical protein W479_02567 [Staphylococcus aureus VET0177R]
+ KAB80076.1 hypothetical protein W480_02440 [Staphylococcus aureus VET0178R]
+ KAB82635.1 hypothetical protein W481_02503 [Staphylococcus aureus VET0179R]
+ KAB82653.1 hypothetical protein W482_02632 [Staphylococcus aureus VET0180R]
+ KAB91778.1 hypothetical protein W489_02550 [Staphylococcus aureus VET0190R]
+ KAB97114.1 hypothetical protein W492_02540 [Staphylococcus aureus VET0193R]
+ KAC00271.1 hypothetical protein W493_02557 [Staphylococcus aureus VET0194R]
+ KAC08275.1 hypothetical protein W499_02501 [Staphylococcus aureus VET0200R]
+ KAC09945.1 hypothetical protein W507_02589 [Staphylococcus aureus VET0212R]
+ KAC13326.1 hypothetical protein W508_02644 [Staphylococcus aureus VET0213R]
+ KAC18272.1 hypothetical protein W509_02098 [Staphylococcus aureus VET0214R]
+ KAC32085.1 hypothetical protein W516_02543 [Staphylococcus aureus VET0222R]
+ KAC34665.1 hypothetical protein W518_02556 [Staphylococcus aureus VET0227R]
+ KAC41882.1 hypothetical protein W524_02649 [Staphylococcus aureus VET0236R]
+ KAC43185.1 hypothetical protein W521_02302 [Staphylococcus aureus VET0230R]
+ KAC50501.1 hypothetical protein W527_02631 [Staphylococcus aureus VET0243R]
+ KAC50804.1 hypothetical protein W526_02165 [Staphylococcus aureus VET0241R]
+ KAC51175.1 hypothetical protein W525_01350 [Staphylococcus aureus VET0237R]
+ KAC57825.1 hypothetical protein W529_02088 [Staphylococcus aureus VET0247R]
+ KAC58465.1 hypothetical protein W530_02224 [Staphylococcus aureus VET0249R]
+ KAC64289.1 hypothetical protein W534_02547 [Staphylococcus aureus VET0254R]
+ KAC70552.1 hypothetical protein W536_02299 [Staphylococcus aureus VET0259R]
+ KAC86396.1 hypothetical protein W541_01975 [Staphylococcus aureus VET0268R]
+ KAC87163.1 hypothetical protein W542_02472 [Staphylococcus aureus VET0269R]
+ KAC91217.1 hypothetical protein W544_02465 [Staphylococcus aureus VET0271R]
+ KAC91775.1 hypothetical protein W543_00958 [Staphylococcus aureus VET0270R]
+ KAC95403.1 hypothetical protein W545_02570 [Staphylococcus aureus VET0275R]
+ KAC97146.1 hypothetical protein W547_02588 [Staphylococcus aureus VET0279R]
+ KAD02638.1 hypothetical protein W548_02566 [Staphylococcus aureus VET0280R]
+ KAD05190.1 hypothetical protein W550_02607 [Staphylococcus aureus VET0283R]
+ KAD15529.1 hypothetical protein W553_02134 [Staphylococcus aureus VET0287R]
+ KAD18270.1 hypothetical protein W554_02534 [Staphylococcus aureus VET0288R]
+ KAD29502.1 hypothetical protein W558_02117 [Staphylococcus aureus VET0292R]
+ KAD43219.1 hypothetical protein W566_02638 [Staphylococcus aureus VET0300R]
+ KAD46652.1 hypothetical protein W569_02554 [Staphylococcus aureus VET0303R]
+ KAD48145.1 hypothetical protein W568_02501 [Staphylococcus aureus VET0302R]
+ KAD59969.1 hypothetical protein W574_02215 [Staphylococcus aureus VET0308R]
+ KAD62250.1 hypothetical protein W575_02656 [Staphylococcus aureus VET0309R]
+ KAD69478.1 hypothetical protein W579_02601 [Staphylococcus aureus VET0315R]
+ KAD77709.1 hypothetical protein W581_01976 [Staphylococcus aureus VET0317R]
+ KAD81341.1 hypothetical protein W582_02053 [Staphylococcus aureus VET0318R]
+ KAD84638.1 hypothetical protein W584_02483 [Staphylococcus aureus VET0320R]
+ KAD84804.1 hypothetical protein W585_02581 [Staphylococcus aureus VET0322R]
+ KAD90528.1 hypothetical protein W586_02079 [Staphylococcus aureus VET0323R]
+ KAD97856.1 hypothetical protein W589_02361 [Staphylococcus aureus VET0329R]
+ KAD99268.1 hypothetical protein W590_02025 [Staphylococcus aureus VET0331R]
+ KAE03872.1 hypothetical protein W594_02605 [Staphylococcus aureus VET0336R]
+ KAE10318.1 hypothetical protein W595_02011 [Staphylococcus aureus VET0337R]
+ KAE11809.1 hypothetical protein W596_02502 [Staphylococcus aureus VET0338R]
+ KAE14034.1 hypothetical protein W597_02600 [Staphylococcus aureus VET0339R]
+ KAE15115.1 hypothetical protein W598_02611 [Staphylococcus aureus VET0340R]
+ KAE21492.1 hypothetical protein W602_02578 [Staphylococcus aureus VET0352R]
+ KAE21729.1 hypothetical protein W599_02096 [Staphylococcus aureus VET0341R]
+ KAE23119.1 hypothetical protein W604_02630 [Staphylococcus aureus VET0354R]
+ KAE27129.1 hypothetical protein W605_02530 [Staphylococcus aureus VET0357R]
+ KAE28097.1 hypothetical protein W607_02557 [Staphylococcus aureus VET0359R]
+ KAE34753.1 hypothetical protein W610_02533 [Staphylococcus aureus VET0363R]
+ KAE50108.1 hypothetical protein W618_02658 [Staphylococcus aureus VET0382R]
+ KAE54638.1 hypothetical protein W619_02605 [Staphylococcus aureus VET0383R]
+ KAE58517.1 hypothetical protein W621_02457 [Staphylococcus aureus VET0387R]
+ KAE61676.1 hypothetical protein W623_02500 [Staphylococcus aureus VET0389R]
+ KAE61694.1 hypothetical protein W622_02500 [Staphylococcus aureus VET0388R]
+ KAE67952.1 hypothetical protein W624_02514 [Staphylococcus aureus VET0390R]
+ KAE68198.1 hypothetical protein W625_02572 [Staphylococcus aureus VET0393R]
+ KAE74736.1 hypothetical protein W628_02611 [Staphylococcus aureus VET0396R]
+ KAE85309.1 hypothetical protein W631_01567 [Staphylococcus aureus VET0401R]
+ KAE88638.1 hypothetical protein W633_02524 [Staphylococcus aureus VET0403R]
+ KAE95592.1 hypothetical protein W636_02536 [Staphylococcus aureus VET0410R]
+ KAE97846.1 hypothetical protein W637_02613 [Staphylococcus aureus VET0411R]
+ KAE97864.1 hypothetical protein W638_02570 [Staphylococcus aureus VET0412R]
+ KAF05357.1 hypothetical protein W642_02566 [Staphylococcus aureus VET0417R]
+ KAF10529.1 hypothetical protein W643_02576 [Staphylococcus aureus VET0418R]
+ KAF15006.1 hypothetical protein W644_01950 [Staphylococcus aureus VET0421R]
+ KAF15915.1 hypothetical protein W646_02525 [Staphylococcus aureus VET0423R]
+ KAF19142.1 hypothetical protein W650_02672 [Staphylococcus aureus VET0427R]
+ KAF19160.1 hypothetical protein W648_02498 [Staphylococcus aureus VET0425R]
+ KAF25973.1 hypothetical protein W651_02089 [Staphylococcus aureus VET0428R]
+ KAF26330.1 hypothetical protein W653_02542 [Staphylococcus aureus VET0432R]
+ KAF31937.1 hypothetical protein W654_02637 [Staphylococcus aureus VET0433R]
+ KAF33878.1 hypothetical protein W655_02632 [Staphylococcus aureus VET0434R]
+ KAF37145.1 hypothetical protein W656_02573 [Staphylococcus aureus VET0435R]
+ KAF40186.1 hypothetical protein W660_02535 [Staphylococcus aureus VET0439R]
+ KAF41190.1 hypothetical protein W659_02101 [Staphylococcus aureus VET0438R]
+ KAF44995.1 hypothetical protein W661_02604 [Staphylococcus aureus VET0440R]
+ KAF45864.1 hypothetical protein W662_02554 [Staphylococcus aureus VET0442R]
+ KAF53974.1 hypothetical protein W665_02235 [Staphylococcus aureus VET0446R]
+ KAF54801.1 hypothetical protein W664_02075 [Staphylococcus aureus VET0444R]
+ KAF62677.1 hypothetical protein W668_02480 [Staphylococcus aureus VET0454R]
+ KAF77297.1 hypothetical protein W674_02599 [Staphylococcus aureus VET0463R]
+ KAF77540.1 hypothetical protein W673_01981 [Staphylococcus aureus VET0462R]
+ KAF89820.1 hypothetical protein W684_02598 [Staphylococcus aureus VET0478R]
+ KAG05124.1 hypothetical protein W690_02617 [Staphylococcus aureus VET0596R]
+ KAG61946.1 hypothetical protein W777_02572 [Staphylococcus aureus VET1088S]
+ KAG82055.1 hypothetical protein W790_02578 [Staphylococcus aureus VET1495S]
+ KAH06064.1 hypothetical protein W799_02538 [Staphylococcus aureus VET1738S]
+ KAH19606.1 hypothetical protein W691_02290 [Staphylococcus aureus VET1831R]
+ KAH20074.1 hypothetical protein W692_02453 [Staphylococcus aureus VET1832R]
+ KAH36227.1 hypothetical protein W700_02462 [Staphylococcus aureus VET1844R]
+ KAH38814.1 hypothetical protein W701_02475 [Staphylococcus aureus VET1845R]
+ KAH44264.1 hypothetical protein W703_02613 [Staphylococcus aureus VET1848R]
+ KAH47370.1 hypothetical protein W705_02638 [Staphylococcus aureus VET1850R]
+ KAH47812.1 hypothetical protein W704_02048 [Staphylococcus aureus VET1849R]
+ KAH53342.1 hypothetical protein W706_02561 [Staphylococcus aureus VET1851R]
+ KAH67244.1 hypothetical protein W713_02538 [Staphylococcus aureus VET1859R]
+ KAH69199.1 hypothetical protein W714_02621 [Staphylococcus aureus VET1860R]
+ KAH72473.1 hypothetical protein W715_02597 [Staphylococcus aureus VET1861R]
+ KAH74787.1 hypothetical protein W716_02543 [Staphylococcus aureus VET1865R]
+ KAH90722.1 hypothetical protein W723_02548 [Staphylococcus aureus VET1873R]
+ KAH99679.1 hypothetical protein W727_02493 [Staphylococcus aureus VET1880R]
+ KAI01166.1 hypothetical protein W729_02566 [Staphylococcus aureus VET1886R]
+ KAI07197.1 hypothetical protein W730_02597 [Staphylococcus aureus VET1890R]
+ KAI13123.1 hypothetical protein W732_02190 [Staphylococcus aureus VET1893R]
+ KAI13990.1 hypothetical protein W733_02562 [Staphylococcus aureus VET1895R]
+ KAI15809.1 hypothetical protein W735_02514 [Staphylococcus aureus VET1897R]
+ KAI20208.1 hypothetical protein W738_02676 [Staphylococcus aureus VET1901R]
+ KAI23192.1 hypothetical protein W739_02667 [Staphylococcus aureus VET1904R]
+ KAI27589.1 hypothetical protein W740_02643 [Staphylococcus aureus VET1905R]
+ KAI31206.1 hypothetical protein W743_02543 [Staphylococcus aureus VET1908R]
+ KAI35451.1 hypothetical protein W744_02642 [Staphylococcus aureus VET1909R]
+ KAI42698.1 hypothetical protein W748_02562 [Staphylococcus aureus VET1913R]
+ KAI43257.1 hypothetical protein W749_02583 [Staphylococcus aureus VET1914R]
+ KAI50201.1 hypothetical protein W808_02567 [Staphylococcus aureus VET1949S]
+ KAI63643.1 hypothetical protein V136_02602 [Staphylococcus aureus ZTA09/03576-8HST]
+ MUN95137.1 hypothetical protein [Staphylococcus borealis]
+ PNZ36320.1 hypothetical protein CD107_09825 [Staphylococcus vitulinus]
+ PNZ85894.1 hypothetical protein CD140_02640 [Staphylococcus hominis subsp. 
+novobiosepticus]
+ RIL49794.1 hypothetical protein BUY76_09210 [Staphylococcus equorum]
+ TFU61365.1 hypothetical protein E4T89_07805 [Jeotgalicoccus nanhaiensis]
+ HCF30812.1 hypothetical protein [Bacillus sp. (in: Bacteria)]
+Length=32
+
+ Score = 64.3 bits (155),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 31/32 (97%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   MDMENKETEWKALYDISKESEMGVAERVSEYG  32
+           MDMENK+TEWKALYDISKESEMGVAERVSEYG
+Sbjct  1   MDMENKKTEWKALYDISKESEMGVAERVSEYG  32
+
+
+>ATF30588.1 hypothetical protein CO689_06785 [Staphylococcus simulans]
+Length=32
+
+ Score = 62.4 bits (150),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   MDMENKETEWKALYDISKESEMGVAERVSEYG  32
+           MDMEN++TEWKALYDISKESEMGVAERVSEYG
+Sbjct  1   MDMENEKTEWKALYDISKESEMGVAERVSEYG  32
+
+
+>EZV65301.1 hypothetical protein V077_02734, partial [Staphylococcus aureus 
+2010-60-6511-39]
+Length=25
+
+ Score = 52.4 bits (124),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  8   TEWKALYDISKESEMGVAERVSEYG  32
+           TEWKALYDISKESEMGVAERVSEYG
+Sbjct  1   TEWKALYDISKESEMGVAERVSEYG  25
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2020  2:51 AM
+  Number of letters in database: 120,178,393,972
+  Number of sequences in database:  332,016,281
+
+Lambda      K        H
+   0.303    0.121    0.332 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 332016281
+Number of Hits to DB: 53041875
+Number of extensions: 763072
+Number of successful extensions: 1250
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 1250
+Number of HSP's successfully gapped: 1
+Length of query: 32
+Length of database: 120178393972
+Length adjustment: 7
+Effective length of query: 25
+Effective length of database: 117854280005
+Effective search space: 2946357000125
+Effective search space used: 2946357000125
+T: 11
+A: 40
+X1: 17 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 43 (21.2 bits)
+S2: 79 (35.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

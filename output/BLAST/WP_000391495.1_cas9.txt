@@ -1,0 +1,1053 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.11.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: Y2YU1072016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           332,016,281 sequences; 120,178,393,972 total letters
+Query= WP_000391495.1.
+
+Length=108
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_000391495.1 MULTISPECIES: winged helix-turn-helix transcrip...  222     3e-73  100%        
+WP_069832357.1 winged helix-turn-helix transcriptional regulat...  221     1e-72  99%         
+WP_053027548.1 MULTISPECIES: winged helix-turn-helix transcrip...  220     1e-72  99%         
+WP_031920602.1 MULTISPECIES: winged helix-turn-helix transcrip...  220     1e-72  99%         
+WP_046465688.1 MULTISPECIES: winged helix-turn-helix transcrip...  219     4e-72  99%         
+CAC7630105.1 Zn(II) or Co(II)-specific transcriptional repress...  219     6e-72  99%         
+HAR5879582.1 TPA: winged helix-turn-helix transcriptional regu...  216     5e-71  100%        
+HAR5902257.1 TPA: winged helix-turn-helix transcriptional regu...  211     8e-69  100%        
+WP_026858751.1 MULTISPECIES: winged helix-turn-helix transcrip...  211     1e-68  96%         
+WP_089534056.1 winged helix-turn-helix transcriptional regulat...  195     1e-62  88%         
+WP_121132972.1 winged helix-turn-helix transcriptional regulat...  191     4e-61  84%         
+WP_090871655.1 winged helix-turn-helix transcriptional regulat...  191     9e-61  84%         
+WP_121128361.1 winged helix-turn-helix transcriptional regulat...  189     3e-60  85%         
+WP_089060606.1 winged helix-turn-helix transcriptional regulat...  188     1e-59  88%         
+WP_099157744.1 winged helix-turn-helix transcriptional regulat...  186     4e-59  89%         
+WP_188455054.1 metalloregulator ArsR/SmtB family transcription...  184     2e-58  87%         
+WP_092493685.1 MULTISPECIES: winged helix-turn-helix transcrip...  183     1e-57  92%         
+WP_194840962.1 metalloregulator ArsR/SmtB family transcription...  182     1e-57  82%         
+WP_174612795.1 metalloregulator ArsR/SmtB family transcription...  182     1e-57  80%         
+HAM80479.1 TPA: transcriptional regulator [Ornithinibacillus sp.]  182     1e-57  82%         
+TFB13292.1 ArsR family transcriptional regulator [Filobacillus...  182     2e-57  81%         
+WP_186868804.1 metalloregulator ArsR/SmtB family transcription...  181     5e-57  81%         
+WP_153401098.1 winged helix-turn-helix transcriptional regulat...  180     1e-56  82%         
+WP_164943022.1 metalloregulator ArsR/SmtB family transcription...  180     2e-56  81%         
+WP_047986478.1 winged helix-turn-helix transcriptional regulat...  180     2e-56  84%         
+WP_111747101.1 MULTISPECIES: winged helix-turn-helix transcrip...  180     2e-56  81%         
+WP_145290326.1 winged helix-turn-helix transcriptional regulat...  179     3e-56  82%         
+WP_175631978.1 metalloregulator ArsR/SmtB family transcription...  178     5e-56  87%         
+WP_026867173.1 MULTISPECIES: winged helix-turn-helix transcrip...  179     5e-56  81%         
+WP_188453371.1 metalloregulator ArsR/SmtB family transcription...  179     6e-56  81%         
+WP_099483514.1 winged helix-turn-helix transcriptional regulat...  178     8e-56  81%         
+WP_082099166.1 winged helix-turn-helix transcriptional regulat...  177     1e-55  81%         
+WP_138604262.1 MULTISPECIES: winged helix-turn-helix transcrip...  176     1e-54  82%         
+WP_142791154.1 winged helix-turn-helix transcriptional regulat...  174     4e-54  81%         
+WP_085991397.1 winged helix-turn-helix transcriptional regulat...  173     6e-54  79%         
+WP_088051949.1 winged helix-turn-helix transcriptional regulat...  172     2e-53  82%         
+WP_089060503.1 winged helix-turn-helix transcriptional regulat...  172     2e-53  87%         
+WP_176446752.1 metalloregulator ArsR/SmtB family transcription...  171     3e-53  85%         
+WP_135108058.1 winged helix-turn-helix transcriptional regulat...  171     9e-53  88%         
+WP_143896592.1 winged helix-turn-helix transcriptional regulat...  171     1e-52  76%         
+WP_188632824.1 metalloregulator ArsR/SmtB family transcription...  169     2e-52  86%         
+WP_072324278.1 MULTISPECIES: winged helix-turn-helix transcrip...  169     3e-52  84%         
+WP_196306981.1 metalloregulator ArsR/SmtB family transcription...  168     3e-52  100%        
+WP_010530302.1 winged helix-turn-helix transcriptional regulat...  169     3e-52  87%         
+WP_033426634.1 winged helix-turn-helix transcriptional regulat...  169     4e-52  82%         
+WP_090080504.1 winged helix-turn-helix transcriptional regulat...  169     4e-52  77%         
+WP_088049944.1 MULTISPECIES: winged helix-turn-helix transcrip...  169     4e-52  86%         
+WP_106497841.1 winged helix-turn-helix transcriptional regulat...  169     5e-52  82%         
+WP_186575993.1 metalloregulator ArsR/SmtB family transcription...  168     5e-52  80%         
+WP_126293800.1 winged helix-turn-helix transcriptional regulat...  168     7e-52  83%         
+
+ALIGNMENTS
+>WP_000391495.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Staphylococcaceae]
+ EON80739.1 ArsR family transcriptional regulator [Staphylococcus epidermidis 
+41tr]
+ EON81079.1 ArsR family transcriptional regulator [Staphylococcus epidermidis 
+528m]
+ EON86364.1 ArsR family transcriptional regulator [Staphylococcus epidermidis 
+36-1]
+ MUN95136.1 metalloregulator ArsR/SmtB family transcription factor [Staphylococcus 
+borealis]
+ NUI79378.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+borealis]
+ NUI82947.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+borealis]
+ NUI85937.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+borealis]
+ NUI91713.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+borealis]
+ NUI93789.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+borealis]
+ HCF30811.1 ArsR family transcriptional regulator [Bacillus sp. (in: Bacteria)]
+Length=108
+
+ Score = 222 bits (566),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+
+
+>WP_069832357.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+equorum]
+ OEK71287.1 ArsR family transcriptional regulator [Staphylococcus equorum]
+Length=108
+
+ Score = 221 bits (562),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/108 (99%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKF+REGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   STVSHQLRFLKNLRLVKFQREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+
+
+>WP_053027548.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Staphylococcus]
+ MBB4833609.1 DNA-binding transcriptional ArsR family regulator [Staphylococcus 
+hominis]
+ OFQ09412.1 transcriptional regulator [Staphylococcus sp. HMSC072E01]
+ SUM67371.1 Zn(II) or Co(II)-specific transcriptional repressor protein [Staphylococcus 
+hominis]
+ SUM74876.1 Zn(II) or Co(II)-specific transcriptional repressor protein [Staphylococcus 
+hominis]
+Length=108
+
+ Score = 220 bits (561),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/108 (99%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH+
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHY  108
+
+
+>WP_031920602.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Staphylococcus]
+ KAH74786.1 hypothetical protein W716_02542 [Staphylococcus aureus VET1865R]
+ KST54409.1 ArsR family transcriptional regulator [Staphylococcus aureus]
+ OAO33037.1 ArsR family transcriptional regulator [Staphylococcus saprophyticus]
+ RIL49793.1 ArsR family transcriptional regulator [Staphylococcus equorum]
+ HAR8774448.1 transcriptional regulator [Staphylococcus aureus]
+Length=108
+
+ Score = 220 bits (561),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/108 (99%), Positives = 107/108 (99%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKFRREGT LFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTILFYSHDDEHTMNMLKQAIDHACHH  108
+
+
+>WP_046465688.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Staphylococcus]
+ MBC2920310.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+saprophyticus]
+ MBC2958253.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+saprophyticus]
+ MBC3008279.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+saprophyticus]
+ MBC3022630.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+saprophyticus]
+ MBC3031238.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+saprophyticus]
+Length=108
+
+ Score = 219 bits (558),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 107/108 (99%), Positives = 107/108 (99%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNKDLDDETLFVVSQTFKALGD TRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDSTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+
+
+>CAC7630105.1 Zn(II) or Co(II)-specific transcriptional repressor protein [Staphylococcus 
+aureus]
+ CAC7896803.1 Zn(II) or Co(II)-specific transcriptional repressor protein [Staphylococcus 
+aureus]
+ CAC7949757.1 Zn(II) or Co(II)-specific transcriptional repressor protein [Staphylococcus 
+aureus]
+Length=108
+
+ Score = 219 bits (557),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Identities = 107/108 (99%), Positives = 107/108 (99%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKELEEVNNK LDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKELEEVNNKYLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+
+
+>HAR5879582.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5909771.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5917411.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5961594.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+Length=105
+
+ Score = 216 bits (551),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  4    KKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTV  63
+            KKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTV
+Sbjct  1    KKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTV  60
+
+Query  64   SHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            SHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   SHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  105
+
+
+>HAR5902257.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5914731.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5927973.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5943355.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ HAR5948475.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+Length=102
+
+ Score = 211 bits (536),  Expect = 8e-69, Method: Compositional matrix adjust.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  7    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  66
+            LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ
+Sbjct  1    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  60
+
+Query  67   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH
+Sbjct  61   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  102
+
+
+>WP_026858751.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Jeotgalicoccus]
+ REG22704.1 DNA-binding transcriptional ArsR family regulator [Jeotgalicoccus 
+halotolerans]
+Length=108
+
+ Score = 211 bits (536),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 103/107 (96%), Positives = 104/107 (97%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKKE EEVNNKDLDDETLFVVSQTFKALGDPTRIRILH LFYKEYSVNGIAETLHLRQ
+Sbjct  1    MEEKKEFEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHSLFYKEYSVNGIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVKFRREGTTLFYSH+DEHTMNMLKQAIDHA H
+Sbjct  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHNDEHTMNMLKQAIDHAYH  107
+
+
+>WP_089534056.1 winged helix-turn-helix transcriptional regulator [Virgibacillus 
+necropolis]
+ ASN07062.1 transcriptional regulator [Virgibacillus necropolis]
+Length=108
+
+ Score = 195 bits (496),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 94/107 (88%), Positives = 101/107 (94%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE+++ E+VN KDLD+ETLFVVSQTFKALGDPTRIRILHLLF+KEYSVN IAE LHLRQ
+Sbjct  1    MEEQEKKEKVNTKDLDEETLFVVSQTFKALGDPTRIRILHLLFHKEYSVNDIAENLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGTTLFYSHDDEH MNMLKQ IDHACH
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLFYSHDDEHVMNMLKQTIDHACH  107
+
+
+>WP_121132972.1 winged helix-turn-helix transcriptional regulator [Oceanobacillus 
+bengalensis]
+ RKQ14040.1 ArsR family transcriptional regulator [Oceanobacillus bengalensis]
+Length=108
+
+ Score = 191 bits (486),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 90/107 (84%), Positives = 102/107 (95%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            ME+ KE  E++NKDLD+ETLFVVSQTFKALGDPTRIRIL+LLF+KE+SVNGI+ETLHLRQ
+Sbjct  1    MEDNKERAEIDNKDLDEETLFVVSQTFKALGDPTRIRILNLLFHKEFSVNGISETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH MNML+Q I+HACH
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMNMLRQTIEHACH  107
+
+
+>WP_090871655.1 winged helix-turn-helix transcriptional regulator [Oceanobacillus 
+limi]
+ SET63628.1 DNA-binding transcriptional regulator, ArsR family [Oceanobacillus 
+limi]
+Length=108
+
+ Score = 191 bits (484),  Expect = 9e-61, Method: Compositional matrix adjust.
+ Identities = 91/108 (84%), Positives = 100/108 (93%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEEKK   E++ KDLD ETLFVVSQTFKALGDPTRIRIL+LLF KEYSVNGIAE+L+LRQ
+Sbjct  1    MEEKKANNEIDTKDLDQETLFVVSQTFKALGDPTRIRILNLLFQKEYSVNGIAESLNLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH MNMLK+ I+HACHH
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMNMLKETINHACHH  108
+
+
+>WP_121128361.1 winged helix-turn-helix transcriptional regulator [Oceanobacillus 
+bengalensis]
+ RKQ18311.1 ArsR family transcriptional regulator [Oceanobacillus bengalensis]
+Length=108
+
+ Score = 189 bits (481),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 91/107 (85%), Positives = 101/107 (94%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            ME+KKE  E++ KDLD+ETLFVVSQTFKALGDPTRIRIL+LLF+KE+SVN IAETLHLRQ
+Sbjct  1    MEDKKEQVEIDKKDLDEETLFVVSQTFKALGDPTRIRILNLLFHKEFSVNRIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH MNMLKQ I+HACH
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMNMLKQTIEHACH  107
+
+
+>WP_089060606.1 winged helix-turn-helix transcriptional regulator [Virgibacillus 
+phasianinus]
+ ASK61329.1 transcriptional regulator [Virgibacillus phasianinus]
+Length=109
+
+ Score = 188 bits (477),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 92/105 (88%), Positives = 97/105 (92%), Gaps = 2/105 (2%)
+
+Query  3    EKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQST  62
+            EKKE E  N K+LD+ETLFVVSQTFKALGDPTRIRILHLLF+KEY VNGIAE LHLRQST
+Sbjct  6    EKKEAE--NEKNLDEETLFVVSQTFKALGDPTRIRILHLLFHKEYPVNGIAEILHLRQST  63
+
+Query  63   VSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            VSHQLRFLKNLRLVK+RREGTTL+YSHDDEH MNMLKQ IDHACH
+Sbjct  64   VSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMNMLKQTIDHACH  108
+
+
+>WP_099157744.1 winged helix-turn-helix transcriptional regulator [Virgibacillus 
+ndiopensis]
+Length=101
+
+ Score = 186 bits (473),  Expect = 4e-59, Method: Compositional matrix adjust.
+ Identities = 90/101 (89%), Positives = 93/101 (92%), Gaps = 0/101 (0%)
+
+Query  7    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  66
+            +E  NN DLD+ETLFVVSQTFKALGDPTRIRILHLLF KEYSVNGIAE LHLRQSTVSHQ
+Sbjct  1    MENDNNNDLDEETLFVVSQTFKALGDPTRIRILHLLFQKEYSVNGIAEALHLRQSTVSHQ  60
+
+Query  67   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRFLKNLRLVK+RREGTTL YSHDDEH MNMLKQ IDHACH
+Sbjct  61   LRFLKNLRLVKYRREGTTLNYSHDDEHVMNMLKQTIDHACH  101
+
+
+>WP_188455054.1 metalloregulator ArsR/SmtB family transcription factor [Virgibacillus 
+oceani]
+ GGG73805.1 HTH-type transcriptional repressor CzrA [Virgibacillus oceani]
+Length=101
+
+ Score = 184 bits (468),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 88/101 (87%), Positives = 93/101 (92%), Gaps = 0/101 (0%)
+
+Query  7    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  66
+            +E  N  DLD+ETLFVVSQTFKALGDPTRIRILHLLF KEYSVNGIAE LHLRQSTVSHQ
+Sbjct  1    MENDNYNDLDEETLFVVSQTFKALGDPTRIRILHLLFQKEYSVNGIAEALHLRQSTVSHQ  60
+
+Query  67   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRFLKNLRLVK+RREGTTL+Y+HDDEH MNMLKQ IDHACH
+Sbjct  61   LRFLKNLRLVKYRREGTTLYYAHDDEHVMNMLKQTIDHACH  101
+
+
+>WP_092493685.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Virgibacillus]
+ SDQ88663.1 DNA-binding transcriptional regulator, ArsR family [Virgibacillus 
+salinus]
+ SEQ43943.1 DNA-binding transcriptional regulator, ArsR family [Virgibacillus 
+subterraneus]
+Length=109
+
+ Score = 183 bits (464),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 88/96 (92%), Positives = 91/96 (95%), Gaps = 0/96 (0%)
+
+Query  13   KDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKN  72
+            KDLD+ETLFVVSQTFKALGDPTRIRILHLLF KEYSVN IAETLHLRQSTVSHQLRFLKN
+Sbjct  14   KDLDEETLFVVSQTFKALGDPTRIRILHLLFNKEYSVNEIAETLHLRQSTVSHQLRFLKN  73
+
+Query  73   LRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            LRLVK+RR GTTLFYSHDDEH MNMLKQ +DHACHH
+Sbjct  74   LRLVKYRRAGTTLFYSHDDEHVMNMLKQTLDHACHH  109
+
+
+>WP_194840962.1 metalloregulator ArsR/SmtB family transcription factor [Filobacillus 
+milosensis]
+Length=107
+
+ Score = 182 bits (463),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 88/107 (82%), Positives = 98/107 (92%), Gaps = 1/107 (1%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            ME++K   ++NNKDLD+ETLFVVSQTFKALGDPTRIRILHLLF+ EYSVNGIAE L LRQ
+Sbjct  1    MEDEKN-TDINNKDLDEETLFVVSQTFKALGDPTRIRILHLLFHSEYSVNGIAEALKLRQ  59
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            +TVSHQLRFLKNLRLVK+RREGTTLFYSHDDEH MN+L+Q I HACH
+Sbjct  60   TTVSHQLRFLKNLRLVKYRREGTTLFYSHDDEHVMNVLEQTIQHACH  106
+
+
+>WP_174612795.1 metalloregulator ArsR/SmtB family transcription factor [Virgibacillus 
+ihumii]
+Length=108
+
+ Score = 182 bits (463),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 86/107 (80%), Positives = 97/107 (91%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            M ++ E +++  KDLD+ETLFVVSQTFKALGDPTRIRILHLLF+ EYSVNGIAE LHLRQ
+Sbjct  1    MADQNEEQQIEQKDLDEETLFVVSQTFKALGDPTRIRILHLLFHNEYSVNGIAEALHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH +N+LKQ IDHA H
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVINILKQTIDHALH  107
+
+
+>HAM80479.1 transcriptional regulator [Ornithinibacillus sp.]
+Length=108
+
+ Score = 182 bits (463),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 88/107 (82%), Positives = 98/107 (92%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            ME+  E   VNNKDLD+ETLFVVSQTFKALGDPTRIRIL+LLF+ EYSVN IAETLHL+Q
+Sbjct  1    MEKNLENFGVNNKDLDEETLFVVSQTFKALGDPTRIRILNLLFHNEYSVNAIAETLHLQQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH MN+L+Q I+HACH
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMNVLRQTIEHACH  107
+
+
+>TFB13292.1 ArsR family transcriptional regulator [Filobacillus milosensis]
+Length=108
+
+ Score = 182 bits (463),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 87/107 (81%), Positives = 97/107 (91%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            M E ++  ++NNKDLD+ETLFVVSQTFKALGDPTRIRILHLLF+ EYSVNGIAE L LRQ
+Sbjct  1    MIEDEKNTDINNKDLDEETLFVVSQTFKALGDPTRIRILHLLFHSEYSVNGIAEALKLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            +TVSHQLRFLKNLRLVK+RREGTTLFYSHDDEH MN+L+Q I HACH
+Sbjct  61   TTVSHQLRFLKNLRLVKYRREGTTLFYSHDDEHVMNVLEQTIQHACH  107
+
+
+>WP_186868804.1 metalloregulator ArsR/SmtB family transcription factor [Ornithinibacillus 
+sp. BX22]
+ MBC5636103.1 winged helix-turn-helix transcriptional regulator [Ornithinibacillus 
+sp. BX22]
+Length=108
+
+ Score = 181 bits (459),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 87/108 (81%), Positives = 95/108 (88%), Gaps = 0/108 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            M+  +     NNKDLD+ETLFVVSQTFKALGDPTRIRIL+LL + EYSVNGIAETL LRQ
+Sbjct  1    MDNNQNQTAFNNKDLDEETLFVVSQTFKALGDPTRIRILNLLIHHEYSVNGIAETLQLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RREGTTL+YS DDEH MNMLKQ IDHACH+
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTTLYYSQDDEHVMNMLKQMIDHACHN  108
+
+
+>WP_153401098.1 winged helix-turn-helix transcriptional regulator [Gracilibacillus 
+sp. TD8]
+ KAB8139161.1 winged helix-turn-helix transcriptional regulator [Gracilibacillus 
+sp. TD8]
+Length=109
+
+ Score = 180 bits (457),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 89/108 (82%), Positives = 98/108 (91%), Gaps = 1/108 (1%)
+
+Query  1    MEEKKE-LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLR  59
+            MEE KE + + N+K+LD+ETLFVVSQTFKAL DPTRIRILHLLF+KEY VNGIAE L LR
+Sbjct  1    MEEHKENVGKENDKELDEETLFVVSQTFKALSDPTRIRILHLLFHKEYPVNGIAENLQLR  60
+
+Query  60   QSTVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            QSTVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH M+MLKQ IDHACH
+Sbjct  61   QSTVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMHMLKQTIDHACH  108
+
+
+>WP_164943022.1 metalloregulator ArsR/SmtB family transcription factor [Macrococcus 
+canis]
+ QIH76036.1 metalloregulator ArsR/SmtB family transcription factor [Macrococcus 
+canis]
+Length=106
+
+ Score = 180 bits (456),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 2/108 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE + ++  NNKDLD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IAE LHLRQ
+Sbjct  1    MEEDEPVD--NNKDLDEETLFVVSQTFKALSDPTRIRILNLLFLKEYSVNDIAENLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RRE TTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  59   STVSHQLRFLKNLRLVKYRRESTTLYYSHDDAHVMNMLKETIDHACHH  106
+
+
+>WP_047986478.1 winged helix-turn-helix transcriptional regulator [Ornithinibacillus 
+californiensis]
+Length=106
+
+ Score = 180 bits (456),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 90/107 (84%), Positives = 94/107 (88%), Gaps = 2/107 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE    E    KDLD+ETLFVVSQTFKAL DPTRIRILHLLF+KE SVN IAETLHLRQ
+Sbjct  1    MEENNSSEVA--KDLDEETLFVVSQTFKALSDPTRIRILHLLFHKEMSVNSIAETLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVKFRREGTTL+YSHDDEH M+MLKQ IDHACH
+Sbjct  59   STVSHQLRFLKNLRLVKFRREGTTLYYSHDDEHVMHMLKQTIDHACH  105
+
+
+>WP_111747101.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Macrococcus]
+ EGQ0290705.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ EGQ0391645.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+ EGQ1716949.1 ArsR family transcriptional regulator [Staphylococcus pseudintermedius]
+ EGQ1819357.1 transcriptional regulator [Staphylococcus pseudintermedius]
+ EGQ2672419.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+pseudintermedius]
+Length=106
+
+ Score = 180 bits (456),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 2/108 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE + ++  NNKDLD+ETLFVVSQTFK L DPTRIRIL+LLF KEYSVN IAE LHLRQ
+Sbjct  1    MEEDETVD--NNKDLDEETLFVVSQTFKVLSDPTRIRILNLLFLKEYSVNDIAENLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  59   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDAHVMNMLKETIDHACHH  106
+
+
+>WP_145290326.1 winged helix-turn-helix transcriptional regulator [Salinicoccus 
+cyprini]
+ TVT27128.1 winged helix-turn-helix transcriptional regulator [Salinicoccus 
+cyprini]
+Length=109
+
+ Score = 179 bits (454),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 89/109 (82%), Positives = 97/109 (89%), Gaps = 1/109 (1%)
+
+Query  1    MEEKKELEEV-NNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLR  59
+            M++ +E E V N KDLD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IAE LHLR
+Sbjct  1    MKDIEENETVYNTKDLDEETLFVVSQTFKALSDPTRIRILNLLFLKEYSVNDIAENLHLR  60
+
+Query  60   QSTVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            QSTVSHQLRFLKNLRLVK+RREGTTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  61   QSTVSHQLRFLKNLRLVKYRREGTTLYYSHDDAHVMNMLKETIDHACHH  109
+
+
+>WP_175631978.1 metalloregulator ArsR/SmtB family transcription factor [Virgibacillus 
+siamensis]
+Length=99
+
+ Score = 178 bits (452),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 85/98 (87%), Positives = 91/98 (93%), Gaps = 0/98 (0%)
+
+Query  10   VNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRF  69
+            + NKDLD+ETLFVVSQTFKALGDPTRIRILHLLF  EYSVNGIAE LHLRQSTVSHQLRF
+Sbjct  1    MKNKDLDEETLFVVSQTFKALGDPTRIRILHLLFQNEYSVNGIAEALHLRQSTVSHQLRF  60
+
+Query  70   LKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LKNLRLVK+RREGTTL+YSHDDEH +N+LKQ IDHA H
+Sbjct  61   LKNLRLVKYRREGTTLYYSHDDEHVINILKQTIDHALH  98
+
+
+>WP_026867173.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Bacilli]
+ KKK34746.1 ArsR family transcriptional regulator [Salinicoccus sediminis]
+ NUM10108.1 winged helix-turn-helix transcriptional regulator [Salinicoccus 
+roseus]
+Length=106
+
+ Score = 179 bits (453),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 2/108 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE + +  VN+KDLD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IAE LHLRQ
+Sbjct  1    MEENETV--VNHKDLDEETLFVVSQTFKALSDPTRIRILNLLFLKEYSVNDIAENLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RR GTTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  59   STVSHQLRFLKNLRLVKYRRAGTTLYYSHDDAHVMNMLKETIDHACHH  106
+
+
+>WP_188453371.1 metalloregulator ArsR/SmtB family transcription factor [Virgibacillus 
+oceani]
+ GGG61320.1 HTH-type transcriptional repressor CzrA [Virgibacillus oceani]
+Length=109
+
+ Score = 179 bits (453),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 97/108 (90%), Gaps = 1/108 (1%)
+
+Query  1    MEEKKE-LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLR  59
+            MEE  E  E+ ++K+LD+ETLFVVSQTFKAL DPTRIRILHLLF+KEY VNGIAE L LR
+Sbjct  1    MEEHNENAEKESDKELDEETLFVVSQTFKALSDPTRIRILHLLFHKEYPVNGIAENLQLR  60
+
+Query  60   QSTVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            QSTVSHQLRFLKNLRLVK+RREGTTL+YSHDDEH M+MLKQ IDHACH
+Sbjct  61   QSTVSHQLRFLKNLRLVKYRREGTTLYYSHDDEHVMHMLKQTIDHACH  108
+
+
+>WP_099483514.1 winged helix-turn-helix transcriptional regulator [Macrococcus 
+caseolyticus]
+ PKD97534.1 ArsR family transcriptional regulator [Macrococcus caseolyticus]
+ PKE38390.1 ArsR family transcriptional regulator [Macrococcus caseolyticus]
+ PKE52021.1 ArsR family transcriptional regulator [Macrococcus caseolyticus]
+ PKE55535.1 ArsR family transcriptional regulator [Macrococcus caseolyticus]
+ PKF18202.1 ArsR family transcriptional regulator [Macrococcus caseolyticus]
+Length=106
+
+ Score = 178 bits (452),  Expect = 8e-56, Method: Compositional matrix adjust.
+ Identities = 87/108 (81%), Positives = 95/108 (88%), Gaps = 2/108 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE + ++  NNKDLD+ETLFVVSQTFK L DPTRIRIL+LLF KEYSVN IAE LHLRQ
+Sbjct  1    MEEDETVD--NNKDLDEETLFVVSQTFKVLSDPTRIRILNLLFLKEYSVNDIAENLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            S VSHQLRFLKNLRLVK+RREGTTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  59   SAVSHQLRFLKNLRLVKYRREGTTLYYSHDDAHVMNMLKETIDHACHH  106
+
+
+>WP_082099166.1 winged helix-turn-helix transcriptional regulator [Salinicoccus 
+sediminis]
+Length=106
+
+ Score = 177 bits (450),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 87/108 (81%), Positives = 95/108 (88%), Gaps = 2/108 (2%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            MEE + ++  NNKDLD+ETLFVVS TFKAL DPTRIRIL+LLF  EYSVN IAE LHLRQ
+Sbjct  1    MEEDETVD--NNKDLDEETLFVVSHTFKALSDPTRIRILNLLFLNEYSVNDIAENLHLRQ  58
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            STVSHQLRFLKNLRLVK+RREGTTL+YSHDD H MNMLK+ IDHACHH
+Sbjct  59   STVSHQLRFLKNLRLVKYRREGTTLYYSHDDSHVMNMLKETIDHACHH  106
+
+
+>WP_138604262.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Lentibacillus]
+ TMN23372.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+sp. NKC220-2]
+Length=109
+
+ Score = 176 bits (445),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 89/108 (82%), Positives = 96/108 (89%), Gaps = 1/108 (1%)
+
+Query  1    MEEKKELEEVN-NKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLR  59
+            MEE  E +E   + DLD+ETLFVVSQTFKALGDPTRIRILHLLF+ EYSVN IAETLHLR
+Sbjct  1    MEEGHEDQETKLDTDLDEETLFVVSQTFKALGDPTRIRILHLLFHDEYSVNQIAETLHLR  60
+
+Query  60   QSTVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            QSTVSHQLRFLKNLRLVK RR+GTTL+YSHDDEH MN+LKQAIDHA H
+Sbjct  61   QSTVSHQLRFLKNLRLVKNRRDGTTLYYSHDDEHVMNLLKQAIDHANH  108
+
+
+>WP_142791154.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+sp. NKC851-2]
+ TRM12171.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+sp. NKC851-2]
+Length=109
+
+ Score = 174 bits (440),  Expect = 4e-54, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 1/108 (1%)
+
+Query  1    MEEKKELEEVN-NKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLR  59
+            ME+  E +E   + DLD+ETLFVVSQTFKALGDPTRIRILHLLF+ EYSVN IAETLHLR
+Sbjct  1    MEKGHEDQETKLDTDLDEETLFVVSQTFKALGDPTRIRILHLLFHDEYSVNQIAETLHLR  60
+
+Query  60   QSTVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            QSTVSHQLRFLKNLRLVK RR+GTTL+YSHDDEH MN+LKQAIDHA H
+Sbjct  61   QSTVSHQLRFLKNLRLVKNRRDGTTLYYSHDDEHVMNLLKQAIDHANH  108
+
+
+>WP_085991397.1 winged helix-turn-helix transcriptional regulator [Oceanobacillus 
+senegalensis]
+Length=107
+
+ Score = 173 bits (439),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 84/107 (79%), Positives = 95/107 (89%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            ME+  E  +++  DLD+ETLFVVSQTFKALGDPTRIRIL+LLF  E+SVN IAETLHLRQ
+Sbjct  1    MEDTNENGKLDQNDLDEETLFVVSQTFKALGDPTRIRILNLLFQNEFSVNNIAETLHLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK+RREGT+L+YSHDDEH MN+LKQ IDHA H
+Sbjct  61   STVSHQLRFLKNLRLVKYRREGTSLYYSHDDEHVMNILKQTIDHARH  107
+
+
+>WP_088051949.1 winged helix-turn-helix transcriptional regulator [Virgibacillus 
+dakarensis]
+Length=109
+
+ Score = 172 bits (437),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 83/101 (82%), Positives = 91/101 (90%), Gaps = 0/101 (0%)
+
+Query  7    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  66
+            +E+    DLD+ETLFVVSQTFKAL DPTRIRIL+LLF+KEYSVN IAE LHLRQSTVSHQ
+Sbjct  8    VEQETYHDLDEETLFVVSQTFKALCDPTRIRILNLLFHKEYSVNEIAENLHLRQSTVSHQ  67
+
+Query  67   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRFLKNLRLVK+RR GTT+FYSHDDEH MNML+Q IDHACH
+Sbjct  68   LRFLKNLRLVKYRRAGTTMFYSHDDEHVMNMLRQTIDHACH  108
+
+
+>WP_089060503.1 winged helix-turn-helix transcriptional regulator [Virgibacillus 
+phasianinus]
+ ASK61226.1 transcriptional regulator [Virgibacillus phasianinus]
+Length=103
+
+ Score = 172 bits (436),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 83/95 (87%), Positives = 86/95 (91%), Gaps = 0/95 (0%)
+
+Query  13   KDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKN  72
+            K LD+ETLFVVSQTFKALGDPTRIRILHLLF  EYSVN IAE LHLRQSTVSHQLRFLKN
+Sbjct  8    KTLDEETLFVVSQTFKALGDPTRIRILHLLFQNEYSVNDIAENLHLRQSTVSHQLRFLKN  67
+
+Query  73   LRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRLVK+RREGTTLFYSHDDEH MN+L Q I HACH
+Sbjct  68   LRLVKYRREGTTLFYSHDDEHVMNVLNQTIKHACH  102
+
+
+>WP_176446752.1 metalloregulator ArsR/SmtB family transcription factor [Lentibacillus 
+sp. CBA3610]
+ QKY68827.1 ArsR family transcriptional regulator [Lentibacillus sp. CBA3610]
+Length=109
+
+ Score = 171 bits (434),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 81/95 (85%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  13   KDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKN  72
+            +DLD+ETLFVVSQTFKALGDPTRIRILHLLFY+EYSVN IAE LHLRQSTVSHQLRFLKN
+Sbjct  14   EDLDEETLFVVSQTFKALGDPTRIRILHLLFYQEYSVNQIAENLHLRQSTVSHQLRFLKN  73
+
+Query  73   LRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRLVK+RREGTTL+YSHDDEH MN+L+++I+HA H
+Sbjct  74   LRLVKYRREGTTLYYSHDDEHVMNLLEESIEHAKH  108
+
+
+>WP_135108058.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+salicampi]
+ TFJ94412.1 ArsR family transcriptional regulator [Lentibacillus salicampi]
+Length=109
+
+ Score = 171 bits (432),  Expect = 9e-53, Method: Compositional matrix adjust.
+ Identities = 84/96 (88%), Positives = 88/96 (92%), Gaps = 0/96 (0%)
+
+Query  12   NKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLK  71
+            N+DLD+ETLFVVSQTFKALGDPTRIRILHLLF  EYSVN IAE LHLRQSTVSHQLRFLK
+Sbjct  13   NEDLDEETLFVVSQTFKALGDPTRIRILHLLFQHEYSVNQIAENLHLRQSTVSHQLRFLK  72
+
+Query  72   NLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            NLRLVK RREGTTLFYSHDDEH +N+LKQ IDHA H
+Sbjct  73   NLRLVKNRREGTTLFYSHDDEHVINLLKQTIDHAFH  108
+
+
+>WP_143896592.1 winged helix-turn-helix transcriptional regulator [Radiobacillus 
+deserti]
+ QDP41749.1 winged helix-turn-helix transcriptional regulator [Radiobacillus 
+deserti]
+Length=111
+
+ Score = 171 bits (432),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 81/106 (76%), Positives = 97/106 (92%), Gaps = 0/106 (0%)
+
+Query  3    EKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQST  62
+            E+ E ++   K+LD+ETLFVVSQ+FKAL DPTRIRILHLLF+KEYSVN +A+TL+LRQST
+Sbjct  6    EQNEAKDTEYKELDEETLFVVSQSFKALSDPTRIRILHLLFHKEYSVNEMADTLNLRQST  65
+
+Query  63   VSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            VSHQLRFLKNLRLVK+RREGTTLFYSHDD+H M++LKQ+I+HA HH
+Sbjct  66   VSHQLRFLKNLRLVKYRREGTTLFYSHDDQHVMDILKQSINHALHH  111
+
+
+>WP_188632824.1 metalloregulator ArsR/SmtB family transcription factor [Lentibacillus 
+kapialis]
+ GGJ96475.1 HTH-type transcriptional repressor CzrA [Lentibacillus kapialis]
+Length=109
+
+ Score = 169 bits (429),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 82/95 (86%), Positives = 89/95 (94%), Gaps = 0/95 (0%)
+
+Query  13   KDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKN  72
+            +DLD+ETLFVVSQTFKALGDPTRIRILHLLF+ E+SVN I+ETLHLRQSTVSHQLRFLKN
+Sbjct  14   EDLDEETLFVVSQTFKALGDPTRIRILHLLFHSEFSVNQISETLHLRQSTVSHQLRFLKN  73
+
+Query  73   LRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRLVK RR+GTTLFYSHDDEH MN+LKQ IDHA H
+Sbjct  74   LRLVKNRRDGTTLFYSHDDEHVMNLLKQTIDHAYH  108
+
+
+>WP_072324278.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Staphylococcus]
+ AVO70350.1 ArsR family transcriptional regulator [Staphylococcus aureus]
+ KAA0806538.1 ArsR family transcriptional regulator [Staphylococcus aureus]
+ MBF0738889.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+arlettae]
+ MBF2756599.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+haemolyticus]
+ MBF2774477.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+haemolyticus]
+Length=106
+
+ Score = 169 bits (428),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 82/98 (84%), Positives = 88/98 (90%), Gaps = 0/98 (0%)
+
+Query  11   NNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFL  70
+            N K LD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IAE LHLRQSTVSHQLRFL
+Sbjct  9    NKKGLDEETLFVVSQTFKALSDPTRIRILNLLFLKEYSVNEIAENLHLRQSTVSHQLRFL  68
+
+Query  71   KNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            KNLRLVK+RREGTTL+YSHDD H MNMLK+ I+HA HH
+Sbjct  69   KNLRLVKYRREGTTLYYSHDDAHVMNMLKETINHARHH  106
+
+
+>WP_196306981.1 metalloregulator ArsR/SmtB family transcription factor, partial 
+[Staphylococcus epidermidis]
+ MBF9295735.1 winged helix-turn-helix transcriptional regulator [Staphylococcus 
+epidermidis]
+Length=83
+
+ Score = 168 bits (426),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 83/83 (100%), Positives = 83/83 (100%), Gaps = 0/83 (0%)
+
+Query  1   MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+           MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ
+Sbjct  1   MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+
+Query  61  STVSHQLRFLKNLRLVKFRREGT  83
+           STVSHQLRFLKNLRLVKFRREGT
+Sbjct  61  STVSHQLRFLKNLRLVKFRREGT  83
+
+
+>WP_010530302.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+jeotgali]
+Length=106
+
+ Score = 169 bits (428),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 83/95 (87%), Positives = 87/95 (92%), Gaps = 0/95 (0%)
+
+Query  13   KDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKN  72
+            +DLD+ETLFVVSQTFKALGDPTRIRILHLLF  EYSVN IAE LHLRQSTVSHQLRFLKN
+Sbjct  11   EDLDEETLFVVSQTFKALGDPTRIRILHLLFQHEYSVNQIAENLHLRQSTVSHQLRFLKN  70
+
+Query  73   LRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            LRLVK RREGTTL+YSHDDEH MN+LKQ IDHA H
+Sbjct  71   LRLVKNRREGTTLYYSHDDEHVMNLLKQTIDHAHH  105
+
+
+>WP_033426634.1 winged helix-turn-helix transcriptional regulator [Salinicoccus 
+albus]
+Length=102
+
+ Score = 169 bits (427),  Expect = 4e-52, Method: Compositional matrix adjust.
+ Identities = 80/98 (82%), Positives = 91/98 (93%), Gaps = 0/98 (0%)
+
+Query  11   NNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFL  70
+            + K+LD+ETLFVVSQTFKALGDPTRI+IL+LLF+ EYSVN IA TLHLRQSTVSHQLRFL
+Sbjct  5    DKKELDEETLFVVSQTFKALGDPTRIKILNLLFHGEYSVNDIAVTLHLRQSTVSHQLRFL  64
+
+Query  71   KNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            KNLRLVK+RR+GTTL+YSHDD H MN+LK+ IDHACHH
+Sbjct  65   KNLRLVKYRRDGTTLYYSHDDVHVMNVLKETIDHACHH  102
+
+
+>WP_090080504.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+persicus]
+ SFD45478.1 DNA-binding transcriptional regulator, ArsR family [Lentibacillus 
+persicus]
+Length=108
+
+ Score = 169 bits (427),  Expect = 4e-52, Method: Compositional matrix adjust.
+ Identities = 82/107 (77%), Positives = 93/107 (87%), Gaps = 0/107 (0%)
+
+Query  1    MEEKKELEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQ  60
+            M+EK++ +    +DLD+ETLFVVSQTFKALGDPTRIRILHLLFY+EYSVN IAE L LRQ
+Sbjct  1    MDEKQQPDNDTYEDLDEETLFVVSQTFKALGDPTRIRILHLLFYQEYSVNQIAENLDLRQ  60
+
+Query  61   STVSHQLRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            STVSHQLRFLKNLRLVK RR+GTTL+YSHDDEH M +L Q I+HA H
+Sbjct  61   STVSHQLRFLKNLRLVKNRRDGTTLYYSHDDEHVMTLLNQTINHATH  107
+
+
+>WP_088049944.1 MULTISPECIES: winged helix-turn-helix transcriptional regulator 
+[Bacillaceae]
+ MTW87714.1 metalloregulator ArsR/SmtB family transcription factor [Virgibacillus 
+dakarensis]
+ GGB48871.1 HTH-type transcriptional repressor CzrA [Lentibacillus populi]
+Length=101
+
+ Score = 169 bits (427),  Expect = 4e-52, Method: Compositional matrix adjust.
+ Identities = 81/94 (86%), Positives = 88/94 (94%), Gaps = 0/94 (0%)
+
+Query  14   DLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFLKNL  73
+            DLD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IA+ LHLRQSTVSHQLRFLKNL
+Sbjct  7    DLDEETLFVVSQTFKALCDPTRIRILYLLFDKEYSVNDIADNLHLRQSTVSHQLRFLKNL  66
+
+Query  74   RLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            RLVK+RREGTTL+YSHDDEH M+MLKQ I+HACH
+Sbjct  67   RLVKYRREGTTLYYSHDDEHVMDMLKQTIEHACH  100
+
+
+>WP_106497841.1 winged helix-turn-helix transcriptional regulator [Lentibacillus 
+sp. Marseille-P4043]
+Length=110
+
+ Score = 169 bits (427),  Expect = 5e-52, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  11   NNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLRFL  70
+            +++DLD+ETLFVVSQTFKAL DPTRIRIL+LLF KEYSVN IAE LHLRQSTVSHQLRFL
+Sbjct  13   SHEDLDEETLFVVSQTFKALNDPTRIRILYLLFDKEYSVNDIAENLHLRQSTVSHQLRFL  72
+
+Query  71   KNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            KNLRLVK+RREGT+L+YSHDDEH M++LKQ I+HACH
+Sbjct  73   KNLRLVKYRREGTSLYYSHDDEHVMDILKQTIEHACH  109
+
+
+>WP_186575993.1 metalloregulator ArsR/SmtB family transcription factor [Aquibacillus 
+sp. HU2P27]
+Length=102
+
+ Score = 168 bits (426),  Expect = 5e-52, Method: Compositional matrix adjust.
+ Identities = 82/102 (80%), Positives = 90/102 (88%), Gaps = 0/102 (0%)
+
+Query  7    LEEVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQ  66
+            + E   KDLD+ETLFVVSQ+FKAL DPTRIRILHLLF KE+SVN IAE L LRQSTVSHQ
+Sbjct  1    MNEQTYKDLDEETLFVVSQSFKALSDPTRIRILHLLFTKEFSVNEIAECLKLRQSTVSHQ  60
+
+Query  67   LRFLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACHH  108
+            LRFLKNLRLVK+RREGTTL+YSHDDEH +NMLKQ I+HA HH
+Sbjct  61   LRFLKNLRLVKYRREGTTLYYSHDDEHVINMLKQTIEHALHH  102
+
+
+>WP_126293800.1 winged helix-turn-helix transcriptional regulator [Lysinibacillus 
+telephonicus]
+ RTQ93929.1 ArsR family transcriptional regulator [Lysinibacillus telephonicus]
+Length=101
+
+ Score = 168 bits (425),  Expect = 7e-52, Method: Compositional matrix adjust.
+ Identities = 82/99 (83%), Positives = 90/99 (91%), Gaps = 0/99 (0%)
+
+Query  9    EVNNKDLDDETLFVVSQTFKALGDPTRIRILHLLFYKEYSVNGIAETLHLRQSTVSHQLR  68
+            +VN  DLD+ETLF+VSQTFKAL DPTRIRIL+LLF KEYSVN IAETL LRQSTVSHQLR
+Sbjct  2    KVNPHDLDEETLFLVSQTFKALSDPTRIRILNLLFNKEYSVNEIAETLDLRQSTVSHQLR  61
+
+Query  69   FLKNLRLVKFRREGTTLFYSHDDEHTMNMLKQAIDHACH  107
+            FLKNLRLVK+RREGT+LFYS+DDEH MNMLKQ I+HA H
+Sbjct  62   FLKNLRLVKYRREGTSLFYSYDDEHVMNMLKQTIEHAIH  100
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2020  2:51 AM
+  Number of letters in database: 120,178,393,972
+  Number of sequences in database:  332,016,281
+
+Lambda      K        H
+   0.322    0.136    0.388 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 332016281
+Number of Hits to DB: 190241336
+Number of extensions: 6333322
+Number of successful extensions: 19356
+Number of sequences better than 100: 1375
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19155
+Number of HSP's successfully gapped: 1375
+Length of query: 108
+Length of database: 120178393972
+Length adjustment: 77
+Effective length of query: 31
+Effective length of database: 94613140335
+Effective search space: 2933007350385
+Effective search space used: 2933007350385
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 79 (35.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

@@ -1,0 +1,961 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.11.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: Y2YWJBRA016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           332,016,281 sequences; 120,178,393,972 total letters
+Query= WP_001631039.1.
+
+Length=119
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_001631039.1 MULTISPECIES: hypothetical protein [Staphylococ...  229     9e-76  100%      
+WP_046465687.1 MULTISPECIES: hypothetical protein [Staphylococ...  228     4e-75  99%       
+MBG1371868.1 hypothetical protein [Staphylococcus aureus]          228     4e-75  99%       
+WP_183958304.1 hypothetical protein [Staphylococcus hominis]       228     5e-75  99%       
+WP_053018651.1 hypothetical protein [Staphylococcus haemolyticus]  228     5e-75  99%       
+WP_110179638.1 hypothetical protein [Staphylococcus pseudinter...  228     5e-75  99%       
+WP_070581804.1 MULTISPECIES: hypothetical protein [unclassifie...  227     7e-75  99%       
+WP_002501906.1 MULTISPECIES: hypothetical protein [Staphylococ...  227     1e-74  99%       
+EGQ1820047.1 hypothetical protein [Staphylococcus pseudinterme...  226     1e-74  99%       
+WP_017175149.1 MULTISPECIES: hypothetical protein [Staphylococ...  226     1e-74  99%       
+MBG1584890.1 hypothetical protein [Staphylococcus aureus]          226     3e-74  99%       
+WP_070442250.1 hypothetical protein [Staphylococcus sp. HMSC14...  225     4e-74  98%       
+WP_031912997.1 hypothetical protein [Staphylococcus aureus]        225     5e-74  99%       
+WP_075109380.1 hypothetical protein [Staphylococcus aureus]        225     6e-74  98%       
+WP_049379424.1 hypothetical protein [Staphylococcus hominis]       224     9e-74  98%       
+HAR6917083.1 TPA: hypothetical protein [Staphylococcus aureus]     220     4e-72  100%      
+EGQ4414547.1 hypothetical protein [Staphylococcus pseudinterme...  219     9e-72  100%      
+HAR8039010.1 TPA: hypothetical protein [Staphylococcus aureus]     216     2e-70  100%      
+WP_032603953.1 hypothetical protein [Staphylococcus epidermidis]   183     6e-58  100%      
+KAB8139211.1 iron permease [Gracilibacillus sp. TD8]               167     2e-49  79%       
+WP_188453370.1 ZIP family metal transporter [Virgibacillus oce...  163     6e-48  76%       
+WP_194840961.1 iron permease [Filobacillus milosensis]             162     2e-47  72%       
+WP_115830385.1 hypothetical protein [Staphylococcus pseudinter...  148     5e-44  100%      
+WP_040980487.1 MULTISPECIES: ZIP family metal transporter [Oce...  152     1e-43  70%       
+WP_148417118.1 ZIP family metal transporter [Oceanobacillus je...  152     2e-43  70%       
+HAR3894008.1 TPA: hypothetical protein [Staphylococcus aureus]     141     2e-41  100%      
+WP_144480446.1 iron permease [Peribacillus simplex]                136     2e-37  60%       
+WP_186868803.1 ZIP family metal transporter [Ornithinibacillus...  130     9e-35  59%       
+EGQ4349058.1 hypothetical protein [Staphylococcus pseudinterme...  123     3e-34  100%      
+WP_188455055.1 ZIP family metal transporter [Virgibacillus oce...  122     5e-32  65%       
+WP_099157743.1 ZIP family metal transporter [Virgibacillus ndi...  121     1e-31  63%       
+WP_079524916.1 MULTISPECIES: hypothetical protein [Halobacillus]   117     5e-30  61%       
+HAM80478.1 TPA: hypothetical protein [Ornithinibacillus sp.]       117     7e-30  72%       
+WP_127758953.1 ZIP family metal transporter [Peribacillus asahii]  110     2e-27  49%       
+WP_119115733.1 ZIP family metal transporter [Peribacillus asahii]  109     7e-27  51%       
+WP_090950976.1 ZIP family metal transporter [Parageobacillus t...  105     3e-25  46%       
+WP_081162448.1 ZIP family metal transporter [Geobacillus sp. 44B]  105     4e-25  46%       
+WP_017435376.1 ZIP family metal transporter [Parageobacillus c...  104     5e-25  46%       
+WP_075619400.1 ZIP family metal transporter [Paenisporosarcina...  104     5e-25  46%       
+WP_042411497.1 ZIP family metal transporter [Parageobacillus c...  104     7e-25  46%       
+WP_175244509.1 ZIP family metal transporter [Parageobacillus s...  104     8e-25  46%       
+WP_194519237.1 ZIP family metal transporter [Anoxybacillus cal...  103     1e-24  45%       
+WP_043903632.1 ZIP family metal transporter [Parageobacillus g...  103     1e-24  45%       
+WP_171699806.1 ZIP family metal transporter [Anoxybacillus sp....  103     1e-24  46%       
+WP_062898402.1 ZIP family metal transporter [Geobacillus therm...  103     2e-24  45%       
+WP_181556556.1 ZIP family metal transporter [Anoxybacillus cal...  103     3e-24  45%       
+WP_055359073.1 MULTISPECIES: ZIP family metal transporter [Geo...  102     3e-24  46%       
+WP_009361454.1 MULTISPECIES: ZIP family metal transporter [Ano...  102     3e-24  45%       
+KZM52353.1 iron permease [Geobacillus stearothermophilus]          102     3e-24  46%       
+WP_050367239.1 MULTISPECIES: ZIP family metal transporter [Bac...  102     3e-24  46%       
+
+ALIGNMENTS
+>WP_001631039.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ EON80740.1 hypothetical protein H700_10130 [Staphylococcus epidermidis 41tr]
+ EON81080.1 hypothetical protein H701_09896 [Staphylococcus epidermidis 528m]
+ EON86363.1 hypothetical protein D592_04715 [Staphylococcus epidermidis 36-1]
+ KDP52944.1 hypothetical protein CO98_2372 [Staphylococcus aureus subsp. 
+aureus CO-98]
+ MUN95135.1 hypothetical protein [Staphylococcus borealis]
+ NUI79379.1 hypothetical protein [Staphylococcus borealis]
+ NUI82946.1 hypothetical protein [Staphylococcus borealis]
+ NUI85938.1 hypothetical protein [Staphylococcus borealis]
+ NUI91712.1 hypothetical protein [Staphylococcus borealis]
+ NUI93788.1 hypothetical protein [Staphylococcus borealis]
+Length=119
+
+ Score = 229 bits (585),  Expect = 9e-76, Method: Compositional matrix adjust.
+ Identities = 119/119 (100%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_046465687.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ KKI53896.1 Zinc transporter, ZIP family [Staphylococcus equorum subsp. equorum]
+ MBC2920311.1 hypothetical protein [Staphylococcus saprophyticus]
+ MBC2958252.1 hypothetical protein [Staphylococcus saprophyticus]
+ MBC3008278.1 hypothetical protein [Staphylococcus saprophyticus]
+ MBC3022631.1 hypothetical protein [Staphylococcus saprophyticus]
+Length=119
+
+ Score = 228 bits (580),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLII IAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIIRIAIHNFPVGNIPLFV  119
+
+
+>MBG1371868.1 hypothetical protein [Staphylococcus aureus]
+ MBG1483867.1 hypothetical protein [Staphylococcus aureus]
+ MBG3344887.1 hypothetical protein [Staphylococcus aureus]
+ MBG3714282.1 hypothetical protein [Staphylococcus aureus]
+Length=119
+
+ Score = 228 bits (580),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LL GIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLSGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_183958304.1 hypothetical protein [Staphylococcus hominis]
+ MBB4833610.1 ZIP family zinc transporter [Staphylococcus hominis]
+Length=119
+
+ Score = 228 bits (580),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDD+ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDQALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_053018651.1 hypothetical protein [Staphylococcus haemolyticus]
+Length=119
+
+ Score = 228 bits (580),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDR LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRVLASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_110179638.1 hypothetical protein [Staphylococcus pseudintermedius]
+ PXA45340.1 hypothetical protein DD884_12720 [Staphylococcus pseudintermedius]
+ REA70899.1 hypothetical protein DV952_11520 [Staphylococcus pseudintermedius]
+ REA88054.1 hypothetical protein DV949_05375 [Staphylococcus pseudintermedius]
+ REB27265.1 hypothetical protein DV946_06585 [Staphylococcus pseudintermedius]
+ RYS38876.1 hypothetical protein DLS42_12720 [Staphylococcus pseudintermedius]
+Length=119
+
+ Score = 228 bits (580),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLL+DKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLIDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_070581804.1 MULTISPECIES: hypothetical protein [unclassified Staphylococcus]
+ OFS52185.1 hypothetical protein HMPREF2862_11500 [Staphylococcus sp. HMSC065C09]
+ OHQ10734.1 hypothetical protein HMPREF2664_10250 [Staphylococcus sp. HMSC064E03]
+Length=119
+
+ Score = 227 bits (579),  Expect = 7e-75, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGG LAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGRLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_002501906.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ AME30226.1 zinc transporter, ZIP family [Staphylococcus epidermidis]
+ EJE13713.1 hypothetical protein HMPREF9979_07730 [Staphylococcus epidermidis 
+NIHLM018]
+ MBG3723383.1 hypothetical protein [Staphylococcus aureus]
+ OHQ81331.1 hypothetical protein HMPREF2549_09105 [Staphylococcus sp. HMSC074D07]
+Length=119
+
+ Score = 227 bits (578),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI LFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNITLFV  119
+
+
+>EGQ1820047.1 hypothetical protein [Staphylococcus pseudintermedius]
+Length=119
+
+ Score = 226 bits (577),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEG QSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGCQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_017175149.1 MULTISPECIES: hypothetical protein [Staphylococcus]
+ EUZ66951.1 hypothetical protein O552_02161 [Staphylococcus sp. M0480]
+ KAA2272725.1 hypothetical protein F1592_11950 [Staphylococcus sp. GDX7P312P]
+ KAA2280140.1 hypothetical protein F1591_06615 [Staphylococcus sp. GDX7P459A]
+ KAF1677735.1 hypothetical protein A4A31_08660 [Staphylococcus hominis]
+ MBC2910421.1 hypothetical protein [Staphylococcus hominis]
+Length=119
+
+ Score = 226 bits (577),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASAL IGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALVIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>MBG1584890.1 hypothetical protein [Staphylococcus aureus]
+ MBG1591985.1 hypothetical protein [Staphylococcus aureus]
+ MBG1635878.1 hypothetical protein [Staphylococcus aureus]
+ MBG3189650.1 hypothetical protein [Staphylococcus aureus]
+ MBG3201361.1 hypothetical protein [Staphylococcus aureus]
+Length=119
+
+ Score = 226 bits (575),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNF VGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFLVGNIPLFV  119
+
+
+>WP_070442250.1 hypothetical protein [Staphylococcus sp. HMSC14D10]
+ OFV27796.1 hypothetical protein HMPREF3134_08795 [Staphylococcus sp. HMSC14D10]
+Length=119
+
+ Score = 225 bits (574),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 117/119 (98%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDR+LASAL IGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRSLASALVIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_031912997.1 hypothetical protein [Staphylococcus aureus]
+ EZS46978.1 hypothetical protein W567_02187 [Staphylococcus aureus VET0301R]
+ EZS63252.1 hypothetical protein W522_02130 [Staphylococcus aureus VET0232R]
+ EZT08333.1 hypothetical protein W438_02529 [Staphylococcus aureus VET0111R]
+ KAA73870.1 hypothetical protein W428_02540 [Staphylococcus aureus VET0097R]
+ KAE68196.1 hypothetical protein W625_02570 [Staphylococcus aureus VET0393R]
+Length=119
+
+ Score = 225 bits (573),  Expect = 5e-74, Method: Compositional matrix adjust.
+ Identities = 118/119 (99%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGG VI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGGVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>WP_075109380.1 hypothetical protein [Staphylococcus aureus]
+ OLF25723.1 hypothetical protein BSZ10_12215 [Staphylococcus aureus]
+Length=119
+
+ Score = 225 bits (573),  Expect = 6e-74, Method: Compositional matrix adjust.
+ Identities = 117/119 (98%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSG+GFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGYGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI LFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNITLFV  119
+
+
+>WP_049379424.1 hypothetical protein [Staphylococcus hominis]
+ MBC2954819.1 hypothetical protein [Staphylococcus hominis]
+ PAL08444.1 hypothetical protein B8W90_09430 [Staphylococcus hominis]
+ QDW85771.1 hypothetical protein DWB94_00200 [Staphylococcus hominis]
+Length=119
+
+ Score = 224 bits (572),  Expect = 9e-74, Method: Compositional matrix adjust.
+ Identities = 117/119 (98%), Positives = 117/119 (98%), Gaps = 0/119 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASAL IGVGGGLAWIMEGFQSGHGFIYSLCA LIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALVIGVGGGLAWIMEGFQSGHGFIYSLCADLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+
+
+>HAR6917083.1 hypothetical protein [Staphylococcus aureus]
+Length=114
+
+ Score = 220 bits (561),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGN  114
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGN
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGN  114
+
+
+>EGQ4414547.1 hypothetical protein [Staphylococcus pseudintermedius]
+Length=115
+
+ Score = 219 bits (558),  Expect = 9e-72, Method: Compositional matrix adjust.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG
+Sbjct  1    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  60
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  115
+
+
+>HAR8039010.1 hypothetical protein [Staphylococcus aureus]
+Length=112
+
+ Score = 216 bits (549),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 112/112 (100%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+            MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1    MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPV  112
+            LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPV
+Sbjct  61   LLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPV  112
+
+
+>WP_032603953.1 hypothetical protein, partial [Staphylococcus epidermidis]
+Length=95
+
+ Score = 183 bits (465),  Expect = 6e-58, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  25   FQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIAIGLVLFQSIHLLMDKITI  84
+            FQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIAIGLVLFQSIHLLMDKITI
+Sbjct  1    FQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIAIGLVLFQSIHLLMDKITI  60
+
+Query  85   ITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  119
+            ITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV
+Sbjct  61   ITNSHQKDIFVRSGVLLIISIAIHNFPVGNIPLFV  95
+
+
+>KAB8139211.1 iron permease [Gracilibacillus sp. TD8]
+Length=236
+
+ Score = 167 bits (422),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 86/109 (79%), Positives = 95/109 (87%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A ASA+GIGVGGGLAWIM+G Q G  FIYSLC GLI+GLLF EMIPESI+LGGWV+L+ G
+Sbjct  4    AFASAIGIGVGGGLAWIMKGVQRGFNFIYSLCTGLIMGLLFLEMIPESIKLGGWVVLVFG  63
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            I +GL+LF  IH LM KITIIT+SHQKDIFVRSGVLL ISIAIHNFPVG
+Sbjct  64   IIVGLLLFIYIHRLMGKITIITDSHQKDIFVRSGVLLTISIAIHNFPVG  112
+
+
+>WP_188453370.1 ZIP family metal transporter [Virgibacillus oceani]
+ GGG61309.1 hypothetical protein GCM10011398_00750 [Virgibacillus oceani]
+Length=241
+
+ Score = 163 bits (413),  Expect = 6e-48, Method: Compositional matrix adjust.
+ Identities = 83/109 (76%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A ASA+GIGVGGGLAWIM+G Q G  FIYSLC GLI+GLLF EMIPESIELGGW++L+ G
+Sbjct  9    AFASAIGIGVGGGLAWIMKGVQRGFNFIYSLCVGLIMGLLFLEMIPESIELGGWIVLVFG  68
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+               G++LF  IH LM KITIIT+SHQKDIFVRSGVLL +SIAIHNFPVG
+Sbjct  69   TVAGILLFMYIHHLMGKITIITDSHQKDIFVRSGVLLTMSIAIHNFPVG  117
+
+
+>WP_194840961.1 iron permease [Filobacillus milosensis]
+Length=241
+
+ Score = 162 bits (409),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 79/109 (72%), Positives = 93/109 (85%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A ASA+GI +GGGLAW+M+  +    FIYS+CAGLIIGLLF EMIPESIELGGW+IL  G
+Sbjct  9    AFASAIGISIGGGLAWMMKSIKRNFSFIYSICAGLIIGLLFLEMIPESIELGGWIILFVG  68
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            I IG+++FQ IH + DKITIIT+SHQKD+F+RSGVLL ISIAIHNFPVG
+Sbjct  69   ILIGILIFQYIHKMFDKITIITDSHQKDMFIRSGVLLTISIAIHNFPVG  117
+
+
+>WP_115830385.1 hypothetical protein, partial [Staphylococcus pseudintermedius]
+ REA74742.1 hypothetical protein DV951_12765, partial [Staphylococcus pseudintermedius]
+Length=78
+
+ Score = 148 bits (373),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1   MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+           MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1   MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61  LLGGIAIGLVLFQSIHLL  78
+           LLGGIAIGLVLFQSIHLL
+Sbjct  61  LLGGIAIGLVLFQSIHLL  78
+
+
+>WP_040980487.1 MULTISPECIES: ZIP family metal transporter [Oceanobacillus]
+Length=240
+
+ Score = 152 bits (384),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 76/109 (70%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A+ SA GI +G GLAW+++  Q G  FIY+LC G+IIGLLFFEMIPES+ELGGW+  + G
+Sbjct  9    AIVSAFGISIGCGLAWVLKHIQRGFAFIYALCMGMIIGLLFFEMIPESMELGGWITFVIG  68
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            + IG +LFQ IH LM KITIIT++HQKDIFVRSGVLL ISIAIHNFPVG
+Sbjct  69   VGIGGLLFQYIHKLMGKITIITDNHQKDIFVRSGVLLTISIAIHNFPVG  117
+
+
+>WP_148417118.1 ZIP family metal transporter [Oceanobacillus jeddahense]
+Length=247
+
+ Score = 152 bits (383),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 76/109 (70%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A+ SA GI +G GLAW+++  Q G  FIY+LC G+IIGLLFFEMIPES+ELGGW+  + G
+Sbjct  16   AIVSAFGISIGCGLAWVLKHIQRGFAFIYALCMGMIIGLLFFEMIPESMELGGWITFVIG  75
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            + IG +LFQ IH LM KITIIT++HQKDIFVRSGVLL ISIAIHNFPVG
+Sbjct  76   VGIGGLLFQYIHKLMGKITIITDNHQKDIFVRSGVLLTISIAIHNFPVG  124
+
+
+>HAR3894008.1 hypothetical protein [Staphylococcus aureus]
+Length=74
+
+ Score = 141 bits (356),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+           MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI
+Sbjct  1   MDDRALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVI  60
+
+Query  61  LLGGIAIGLVLFQS  74
+           LLGGIAIGLVLFQS
+Sbjct  61  LLGGIAIGLVLFQS  74
+
+
+>WP_144480446.1 iron permease [Peribacillus simplex]
+ TVX77173.1 iron permease [Peribacillus simplex]
+Length=240
+
+ Score = 136 bits (343),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 65/108 (60%), Positives = 85/108 (79%), Gaps = 0/108 (0%)
+
+Query  6    LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGI  65
+             ASALG G GGG AW+++G       +Y+LCAG+++GLLF EM PESI++GGW+ LL GI
+Sbjct  10   FASALGTGFGGGFAWMLKGLHKKISTVYALCAGMLMGLLFLEMFPESIDMGGWIPLLFGI  69
+
+Query  66   AIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             +G  LFQS+H LM KITIIT + QKD+FV++GVLL +SIA+HNFP+G
+Sbjct  70   IVGWTLFQSLHQLMHKITIITGNPQKDVFVQTGVLLSLSIAVHNFPIG  117
+
+
+>WP_186868803.1 ZIP family metal transporter [Ornithinibacillus sp. BX22]
+ MBC5636102.1 ZIP family metal transporter [Ornithinibacillus sp. BX22]
+Length=241
+
+ Score = 130 bits (326),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 64/108 (59%), Positives = 83/108 (77%), Gaps = 0/108 (0%)
+
+Query  6    LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGI  65
+            +ASALGI  GGGLAW M+       F+YSLC GLIIGLLF EMIP+SI+LGGWVI   G 
+Sbjct  10   IASALGISAGGGLAWFMKRIHGSVSFLYSLCGGLIIGLLFIEMIPKSIQLGGWVIFALGT  69
+
+Query  66   AIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            A G++L+  IH +++ IT++T++ QK + +R+GVLL ISIA+HNFPVG
+Sbjct  70   ATGVILYLCIHRVINMITLVTDTQQKVLLLRTGVLLTISIAMHNFPVG  117
+
+
+>EGQ4349058.1 hypothetical protein [Staphylococcus pseudintermedius]
+Length=64
+
+ Score = 123 bits (308),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  56   GGWVILLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI  115
+            GGWVILLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI
+Sbjct  1    GGWVILLGGIAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI  60
+
+Query  116  PLFV  119
+            PLFV
+Sbjct  61   PLFV  64
+
+
+>WP_188455055.1 ZIP family metal transporter [Virgibacillus oceani]
+ GGG73809.1 hypothetical protein GCM10011398_17900 [Virgibacillus oceani]
+Length=239
+
+ Score = 122 bits (307),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 63/97 (65%), Positives = 77/97 (79%), Gaps = 0/97 (0%)
+
+Query  17   GLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIAIGLVLFQSIH  76
+            GLAWI++  +    FIYSL  GLI+GLLF EM+PESIE+GGW IL+ G+A G+ LF  IH
+Sbjct  21   GLAWILKKIKHNFTFIYSLSTGLIMGLLFLEMLPESIEMGGWFILVCGLAAGIALFYFIH  80
+
+Query  77   LLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+              +DKITIIT S QKDIFVR+G+LL +SIA+HNFPVG
+Sbjct  81   YCLDKITIITGSKQKDIFVRAGLLLTVSIALHNFPVG  117
+
+
+>WP_099157743.1 ZIP family metal transporter [Virgibacillus ndiopensis]
+Length=239
+
+ Score = 121 bits (304),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 61/97 (63%), Positives = 78/97 (80%), Gaps = 0/97 (0%)
+
+Query  17   GLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIAIGLVLFQSIH  76
+            GLAWIM+G +    FIYSL +GLI+GLL FEMIPES+ LGGW IL+ G+  G+++F  IH
+Sbjct  21   GLAWIMKGIRENFAFIYSLSSGLIMGLLVFEMIPESVALGGWGILVIGMMAGVLIFYLIH  80
+
+Query  77   LLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+              +D+ITIIT S QKDIF+R+G+LL +SIA+HNFPVG
+Sbjct  81   YGLDRITIITGSQQKDIFIRAGLLLAVSIALHNFPVG  117
+
+
+>WP_079524916.1 MULTISPECIES: hypothetical protein [Halobacillus]
+Length=238
+
+ Score = 117 bits (293),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 67/109 (61%), Positives = 82/109 (75%), Gaps = 2/109 (2%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A AS LGIG+GG  AWI +G Q    FIY+LC GLIIGLL FEMIPES+ LGGW +   G
+Sbjct  9    AFASGLGIGIGGIFAWIFKGVQ--QSFIYALCTGLIIGLLAFEMIPESLRLGGWGVFFVG  66
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+               G+ LF+ IH  +DK+TIIT S QKDIFVR+G++L ISI++HNFP+G
+Sbjct  67   AIAGITLFRYIHHSIDKVTIITRSPQKDIFVRTGIILTISISVHNFPMG  115
+
+
+>HAM80478.1 hypothetical protein [Ornithinibacillus sp.]
+Length=241
+
+ Score = 117 bits (293),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 79/109 (72%), Positives = 90/109 (83%), Gaps = 0/109 (0%)
+
+Query  5    ALASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGG  64
+            A ASA+GIG GGGLAW+++G + G GFIYSLC GLI+G+L  EMIPESIELGGWV L  G
+Sbjct  9    AFASAIGIGAGGGLAWMLKGVERGFGFIYSLCTGLILGILLLEMIPESIELGGWVNLAIG  68
+
+Query  65   IAIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            I IG++L Q IH  MDKI IIT+SHQKDIFVRSGVLL +SIA HNFPVG
+Sbjct  69   ITIGIILLQYIHQFMDKIIIITDSHQKDIFVRSGVLLTLSIAFHNFPVG  117
+
+
+>WP_127758953.1 ZIP family metal transporter [Peribacillus asahii]
+ AZV41223.1 zinc permease [Peribacillus asahii]
+Length=240
+
+ Score = 110 bits (276),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 53/108 (49%), Positives = 78/108 (72%), Gaps = 0/108 (0%)
+
+Query  6    LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGI  65
+            +A+A+GI +GG L  ++  FQ G   IY+LC GLI+GL+F E++PESI LGGW I + GI
+Sbjct  10   VATAIGISIGGLLTMLLRRFQQGIATIYALCTGLILGLVFLEIVPESINLGGWTIFILGI  69
+
+Query  66   AIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+              G ++F  IH   +++T IT++  KD+F+ +G LL +SI+IHNFP+G
+Sbjct  70   VTGSLIFLLIHQTYNRVTTITHNSSKDLFMHTGCLLALSISIHNFPMG  117
+
+
+>WP_119115733.1 ZIP family metal transporter [Peribacillus asahii]
+ RID88745.1 zinc permease [Peribacillus asahii]
+Length=240
+
+ Score = 109 bits (273),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 55/108 (51%), Positives = 75/108 (69%), Gaps = 0/108 (0%)
+
+Query  6    LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGI  65
+            +A+A+GI +GG L  ++  FQ G   IY+LC GLI+GL+F E++PESI LGGW I + GI
+Sbjct  10   VATAIGISIGGLLTMLLRRFQQGIAAIYALCTGLILGLVFLEIVPESINLGGWTIFILGI  69
+
+Query  66   AIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+              G +LF  IH    K+T I +   KD+F+ +G LL ISI+IHNFP+G
+Sbjct  70   VTGSLLFLLIHQTYSKVTTINHHSSKDLFMHTGYLLAISISIHNFPMG  117
+
+
+>WP_090950976.1 ZIP family metal transporter [Parageobacillus thermantarcticus]
+ SFA52798.1 zinc transporter, ZIP family [Parageobacillus thermantarcticus]
+Length=240
+
+ Score = 105 bits (262),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 76/107 (71%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFKGWQKGTPTIFSICSGMIFGLVTLEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+            +G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   LGYFIYKHLEKVSHHVIIITNDAKKDVFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_081162448.1 ZIP family metal transporter [Geobacillus sp. 44B]
+ OQO98886.1 iron permease [Geobacillus sp. 44B]
+ QNU37204.1 ZIP family metal transporter [Geobacillus sp. 44B]
+Length=240
+
+ Score = 105 bits (261),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 76/107 (71%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGTPTIFSICSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG++L  SIA+HNFP G
+Sbjct  71   FGYFIYKYLEKVSHHVVIITNDAKKDLFVHSGLILTFSIALHNFPTG  117
+
+
+>WP_017435376.1 ZIP family metal transporter [Parageobacillus caldoxylosilyticus]
+Length=240
+
+ Score = 104 bits (260),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGTPTIFSICSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKYLEKVFHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_075619400.1 ZIP family metal transporter [Paenisporosarcina indica]
+Length=241
+
+ Score = 104 bits (260),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 51/110 (46%), Positives = 79/110 (72%), Gaps = 0/110 (0%)
+
+Query  6    LASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGI  65
+            L++ALG+G+GGG+AW ++GFQ     IY+LC GLI+GL+ FE+ PESI+LG WVI+  G 
+Sbjct  10   LSTALGLGIGGGVAWSLKGFQKSVATIYALCGGLIVGLISFEIGPESIQLGDWVIVSLGF  69
+
+Query  66   AIGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVGNI  115
+              G++LF+ +H    +   IT + +KD+F+ + +LL + I++HN P+G I
+Sbjct  70   LTGVLLFELLHKAFHRNIGITGNREKDVFLHTSILLTLGISLHNLPIGVI  119
+
+
+>WP_042411497.1 ZIP family metal transporter [Parageobacillus caldoxylosilyticus]
+ GAJ41329.1 putative zinc transporter [Parageobacillus caldoxylosilyticus 
+NBRC 107762]
+Length=240
+
+ Score = 104 bits (259),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E+ PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGTPTIFSICSGMIFGLVTMEIFPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKYLEKVSHHVVIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_175244509.1 ZIP family metal transporter [Parageobacillus sp. VR-IP]
+ NUK30452.1 ZIP family metal transporter [Parageobacillus sp. VR-IP]
+Length=240
+
+ Score = 104 bits (259),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGTPTIFSICSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKYLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_194519237.1 ZIP family metal transporter [Anoxybacillus caldiproteolyticus]
+ QPA30675.1 ZIP family metal transporter [Anoxybacillus caldiproteolyticus]
+Length=240
+
+ Score = 103 bits (258),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G Q G   I+S+C+G+I GL+  E++PESIE+GGW + + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGLQKGMPTIFSICSGMIFGLVTMEILPESIEIGGWFVPIAGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKQLEKVSHNVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_043903632.1 ZIP family metal transporter [Parageobacillus genomosp. 1]
+ EZP78603.1 Zinc/iron permease [Parageobacillus genomosp. 1]
+Length=240
+
+ Score = 103 bits (258),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGTPTIFSVCSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+F+ SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFIHSGLFLTFSIALHNFPTG  117
+
+
+>WP_171699806.1 ZIP family metal transporter [Anoxybacillus sp. CHMUD]
+ NNU89487.1 iron permease [Anoxybacillus sp. CHMUD]
+Length=240
+
+ Score = 103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGWQKGTATIFSVCSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_062898402.1 ZIP family metal transporter [Geobacillus thermoleovorans]
+ AMV09869.1 iron permease [Geobacillus thermoleovorans]
+ AOL33477.1 iron permease [Geobacillus thermoleovorans]
+Length=240
+
+ Score = 103 bits (256),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I+GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGAIAWLFQGWQRGMPTIFSICSGMILGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +      + IITN  +KD+FV SG+ L  SI++HNFP G
+Sbjct  71   FGYFIYKHLEKASHHVIIITNDAKKDVFVHSGLFLTFSISLHNFPTG  117
+
+
+>WP_181556556.1 ZIP family metal transporter [Anoxybacillus caldiproteolyticus]
+ MBA2875781.1 ZIP family zinc transporter [Anoxybacillus caldiproteolyticus]
+Length=240
+
+ Score = 103 bits (256),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G Q G   I+S+C+G+I GL+  E++PESIE+GGW + + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGLQKGMPTIFSICSGMIFGLVTMEILPESIEIGGWFVPIAGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_055359073.1 MULTISPECIES: ZIP family metal transporter [Geobacillus]
+ KQC46054.1 iron permease [Geobacillus sp. Sah69]
+ KYD35360.1 hypothetical protein B4114_2999 [Geobacillus stearothermophilus]
+Length=240
+
+ Score = 102 bits (255),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGWQKGTPTIFSVCSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_009361454.1 MULTISPECIES: ZIP family metal transporter [Anoxybacillus]
+ EMI10861.1 zinc/iron permease [Anoxybacillus gonensis]
+ MBE2941354.1 ZIP family metal transporter [Anoxybacillus flavithermus]
+ MBE2944002.1 ZIP family metal transporter [Anoxybacillus flavithermus]
+ MBE2950785.1 ZIP family metal transporter [Anoxybacillus flavithermus]
+ MBE2954885.1 ZIP family metal transporter [Anoxybacillus flavithermus]
+Length=240
+
+ Score = 102 bits (255),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 74/107 (69%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +  Q G   I+S+C+G+I GL+  E++PESIE+GGW I++ G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKSLQKGMPTIFSICSGMIFGLVTMEILPESIEIGGWFIVIVGLV  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHNVIIITNDAKKDVFVHSGLFLTFSIALHNFPTG  117
+
+
+>KZM52353.1 iron permease [Geobacillus stearothermophilus]
+Length=225
+
+ Score = 102 bits (254),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGWQKGTPTIFSVCSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+>WP_050367239.1 MULTISPECIES: ZIP family metal transporter [Bacillaceae]
+ AKU25246.1 iron permease [Geobacillus sp. LC300]
+ QAV26565.1 iron permease [Neobacillus thermocopriae]
+ SFA60211.1 zinc transporter, ZIP family [Anoxybacillus pushchinoensis]
+Length=240
+
+ Score = 102 bits (255),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 75/107 (70%), Gaps = 0/107 (0%)
+
+Query  7    ASALGIGVGGGLAWIMEGFQSGHGFIYSLCAGLIIGLLFFEMIPESIELGGWVILLGGIA  66
+            ASA+G+  GG +AW+ +G+Q G   I+S+C+G+I GL+  E++PESIE+GGW I + G+ 
+Sbjct  11   ASAIGMLSGGVIAWLFKGWQKGTPTIFSVCSGMIFGLVTMEILPESIEIGGWFIAIVGLI  70
+
+Query  67   IGLVLFQSIHLLMDKITIITNSHQKDIFVRSGVLLIISIAIHNFPVG  113
+             G  +++ +  +   + IITN  +KD+FV SG+ L  SIA+HNFP G
+Sbjct  71   FGYFIYKHLEKVSHHVIIITNDAKKDLFVHSGLFLTFSIALHNFPTG  117
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2020  2:51 AM
+  Number of letters in database: 120,178,393,972
+  Number of sequences in database:  332,016,281
+
+Lambda      K        H
+   0.330    0.151    0.461 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 332016281
+Number of Hits to DB: 243735199
+Number of extensions: 9813127
+Number of successful extensions: 42185
+Number of sequences better than 100: 130
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 42127
+Number of HSP's successfully gapped: 131
+Length of query: 119
+Length of database: 120178393972
+Length adjustment: 86
+Effective length of query: 33
+Effective length of database: 91624993806
+Effective search space: 3023624795598
+Effective search space used: 3023624795598
+T: 11
+A: 40
+X1: 15 (7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 79 (35.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
