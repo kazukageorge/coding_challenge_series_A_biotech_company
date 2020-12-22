@@ -54,8 +54,8 @@ The developed code is designed to
     a. `Sequences producing significant alignments`
     b. `Score (Bits)`
     c. `E-value`
-    d. `Max (percent) identical`
-<br /> 
+    d. `Max (percent) identical` <br /> 
+
     `!python3 solution.py -g <directory_to_gbff_file> -k <keyword> -b`
 
 
