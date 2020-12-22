@@ -34,7 +34,7 @@ The developed code is designed to
 -b --blast:                     optional, run ncbi's BLAST database. Used to check the filter for discovering new filter (Cas9) sequences
 -g --gbff <directory>:          required, enter gbff file directory for analysis
 -c --check_common_features:     optional, used to check the most common features of the CDS.
--a --add_features <feature1>     optional, used to add features to add to the output csv. If entering multiple features, please use the format "-a feature1 -a feature2 ...".
+-a --add_features <feature1>    optional, used to add features to add to the output csv. If entering multiple features, please use the format "-a feature1 -a feature2 ...".
 -k --keyword:                   optional, used for determining a set of criteria
 ```
 
