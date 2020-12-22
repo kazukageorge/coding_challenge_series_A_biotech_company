@@ -1,7 +1,7 @@
 # Coding Challenge - Finding two instances of cas9 from gbff files
 
 ### Intro:
-This was a coding challenge for a SWE position for a Series A funded biotech company (as of December 2020), founded by a Professor and graduates from MIT. Given two GenBank Flat Files ([`gbff`](https://www.ncbi.nlm.nih.gov/datasets/docs/about-ncbi-gbff/)) that contain nucleotide sequences and its metadata, can we predict two instances of cas9? 
+This was a coding challenge for a SWE position for a Series A funded biotech company (as of December 2020), founded by a Professor and graduates from MIT. Given two GenBank Flat Files ([`gbff`](https://www.ncbi.nlm.nih.gov/datasets/docs/about-ncbi-gbff/)) that contain nucleotide sequences and its metadata, can we find two instances of cas9? 
 
 
 ### Descriptions:
